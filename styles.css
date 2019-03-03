@@ -1,0 +1,44 @@
+
+.idyll-text-container img {
+  border: 1px solid black;
+}
+.idyll-text-container canvas {
+  border: 1px solid black;
+}
+
+@media all and (max-width: 1200px) {
+  .parametric-metadata-container {
+    position: static;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .parametric-metadata {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+  }
+  h1.hed-rotate {
+    font-size: 96px;
+    line-height: 100px;
+  }
+
+}
+
+@media all and (max-width: 1000px) {
+  .idyll-root {
+    max-width: none;
+    padding: 0;
+  }
+
+  h1.hed-rotate {
+    display: none;
+  }
+  /* h1.hed {
+    font-size: 96px;
+    line-height: 100px;
+  } */
+
+
+}

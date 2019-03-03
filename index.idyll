@@ -1,0 +1,113 @@
+[meta title:"The Data Science of Housing Equity" description:"Researchers are using the power of data science to study the effectiveness of anti-displacement housing programs for cities’ most vulnerable residents." /]
+
+[Nav fullWidth:true /]
+
+[Header
+  title:`["Housing", "Equity"]`
+  longTitle:`["The Data Science", "of Housing Equity"]`
+  date:"April 15, 2019"
+  dek:"Researchers are using the power of data science to study the effectiveness of anti-displacement housing programs for cities’ most vulnerable residents."
+  fullWidth:true
+  authors:`[{
+    name: "Alyson Powell Key",
+    role: ''
+  }, {
+    name: "Fred Hohman",
+    role: ''
+  }]`
+  doi:""
+  archive:""
+  source:""
+/]
+
+On a spring day in 2017 in the front yard of a small, cornflower-blue house on Atlanta’s historic Westside, Mayor Kasim Reed announced the launch of a new city-backed program. Its purpose: to stem the tide of rising property taxes and keep residents of some of the city’s most impoverished neighborhoods in their homes.
+
+"The City of Atlanta is proud to launch this essential program which will help ensure that long-time residents get to share in the prosperity coming to the Westside," Reed said at the news conference announcing the fund. "This program is another stake in the ground to preserve the character and the history of our transformative Atlanta neighborhoods."
+
+Modeled after a similar program in Charleston, South Carolina, Atlanta non-profit Westside Future Fund established the Anti-Displacement Tax Fund program in response to a flurry of activity in the area. More people were moving from suburbs back to the city, the new Mercedes-Benz Stadium would soon welcome sports fans to Super Bowl LIII, and the city had recently completed a Westside expansion of the multi-use Atlanta BeltLine trail.
+
+Home valuations in the four, mostly-black neighborhoods that the fund covers increased by 54-percent over the last tax cycle, according to Mitchell King, director of Community Engagement and External Affairs, Westside Future Fund. “Things are moving, and they’re moving quickly for a lot of folks,” he said.
+
+Five-million dollars in philanthropic donations from the family foundation of Atlanta Falcons and Atlanta United owner Arthur Blank, as well as homegrown companies like Delta Air Lines and Chick-fil-A, support the tax fund program. It pays for property tax increases over the next 20 years for qualified owner-occupants who have lived in their homes for at least one year.
+
+
+_Vine City resident Pastor Dexter Johnson; WFF Executive Director John Ahmann; Atlanta City Planning Commissioner Tim Keane; Atlanta City Council member Michael Bond; former Atlanta Mayor Kasim Reed; Atlanta City Council member Ivory Young; and then-City Council member and current Atlanta Mayor Keisha Lance Bottoms at the 2017 announcement of the Fund_
+
+// TODO - get this photo
+// [Photo from news conference / Caption: Vine City resident Pastor Dexter Johnson; WFF Executive Director John Ahmann; Atlanta City Planning Commissioner Tim Keane; Atlanta City Council member Michael Bond; former Atlanta Mayor Kasim Reed; Atlanta City Council member Ivory Young; and then-City Council member and current Atlanta Mayor Keisha Lance Bottoms at the 2017 announcement of the Fund. Courtesy: Westside Future Fund]
+
+[hr /]
+
+Amanda Meng was in the crowd of onlookers the day Mayor Reed announced the Anti-Displacement Tax Fund in 2017. She recalls that the owner of the little blue house in the English Avenue community, a nurse with the Veterans Administration, wasn’t home at the time; she chose to go to work instead. A next-door neighbor came over to ask Reed a few questions.
+
+"There was still concern about whether or not displacement was going to be a problem," Meng remembered. The neighbor and others also wondered how many legacy residents the fund would help. Meng, a research scientist in the Georgia Institute of Technology's School of Computer Science, set out to answer this question using data science.
+
+Partnering with local community empowerment organization Westside Atlanta Land Trust (WALT) and using machine learning techniques, she and a team of researchers and students analyzed real estate data and historical tax assessments for five Westside Atlanta neighborhoods.
+
+They created an interactive online tool that shows residents if they qualify for the Anti-Displacement Tax Fund, and projected property taxes over seven years. Researchers found, and Westside Future Fund confirms, that 92-percent of residents who live in the 2.2 square mile English Avenue, Vine City, Atlanta University Center, and Ashview Heights neighborhoods are renters or have liens on their homes, disqualifying them from the fund.
+
+They also found that if the fund included the adjacent Washington Park neighborhood, which has a larger percentage of owner-occupants, eligibility for the program would significantly increase.
+
+// TODO - map
+// [Map info / Courtesy: Data Science for Social Good, Georgia Institute of Technology]
+_map_
+
+
+WALT representatives presented the findings to city planners, who, according to Meng, “just stuck to their guns.” She said money from the fund could instead be committed to programs that would help more residents, including renters. “If this is really about anti-displacement, can we take the money you’ve committed and put it somewhere else where there’s going to make more of an impact?”
+
+To date, Westside Future Fund has enrolled 92 out of 400 eligible homeowners in the Anti-Displacement Tax Fund.
+
+Takeria Blunt, Meng’s collaborator on the project and a Ph.D. student in Georgia Tech’s Digital Media Program, said the tool they developed shows the power of data science in shedding light on policies affecting poor communities. “We wanted to put out whatever raw data we had to spark conversation among community members; I think that’s what the tool is most useful for.”
+
+Before enrolling at Georgia Tech last fall, for four years Blunt was a student at Spelman, one of the country’s oldest historically black colleges, located on the Westside. She attended community meetings about housing justice and has seen how gentrification is changing the community.
+
+“Along with the building of the stadium, \[developers are\] preparing to serve a different group of people,” she said. “Things are changing rapidly — the types of apartments that are being built, the prices; the West End is going to be totally different in five years.”
+
+In February, the City of Atlanta announced the $5.1 million purchase of an unused stretch of railroad corridor on the Westside to expand the BeltLine. And, there are concerns that development of the mixed-use Gulch complex could further increase property values and displace long-time residents.
+
+// [BeltLine expansion map?]
+_BeltLine expansion map?_
+
+Blunt said she’s not against development on the Westside if it’s done the right way. “Change is good when it’s bettering people’s quality of life, but people who have been there for so long won’t get to see that because they can’t afford to live in that area anymore.”
+
+## The Impact of Displacement
+
+Scott Markley has studied the impact of housing displacement in urban and suburban areas. The University of Georgia Ph.D. student grew up in Atlanta’s northern suburbs, and his parents and grandmother still live there. During visits home over the past five years, he noticed a trend: cities tearing down older apartment complexes and replacing them with new, high-end developments.
+
+In 2013 in Roswell, one of Georgia’s largest cities, the city council approved replacing a 152-unit apartment complex with upscale housing to increase property values. Roswell’s then-mayor Jere Wood told news reporters that the “city is not in a position to help those people” displaced from the complex.
+
+Although his research began in Roswell, Markley expanded his scope to other nearby cities — Marietta, Brookhaven, Sandy Springs, and Smyrna — and discovered a similar pattern of redevelopment projects forcing thousands of mostly black and Hispanic renters from their homes.
+
+// [Map of apartment demolitions]
+_Map of apartment demolitions_
+
+“The residents and their desires and their interests were almost entirely disregarded and the city more or less forced through the issue,” Markley said.
+
+Historically, Jim Crow laws, and later, covenants between property owners enforced racial segregation in housing in the United States. By 1968, the Fair Housing Act made all housing discrimination unconstitutional.
+
+Over the past two decades, according to Markley, cities like those in Atlanta’s northern suburbs have switched strategies in an effort to preserve majority white populations. In addition to continuing to covertly exclude racial minorities from living in white communities, cities are also legislating forced evictions through redevelopment projects.
+
+“It’s difficult for people moving out of a community in which they’ve settled. Away from the people they know, away from the area that’s considered home, especially if you have kids who are taken out of school during the school year, which can have a detrimental impact on their grades and social life.”
+
+Grasping the full impact of displacement on families is difficult. Where do they live now? Did they find affordable housing near work and school? Apartment demolition creates a rental market where demand exceeds supply, worsening the affordable housing crisis.
+
+## Affordable Housing Solutions
+
+Westside Future Fund is currently working to provide more affordable housing for renters. As property owners cash out, the non-profit is buying land through philanthropic donations and preserving it for affordable housing units.
+
+Last year they purchased two apartment complexes, Villas at the Dome and 603 Brawley, which now house around 60 families. By 2023, Westside Future Fund’s goal is to create a mixed-income community including 800 affordable housing units for residents earning around $26-thousand a year or less, although they acknowledge that to help the most residents a lower target income is optimal.
+
+// [graphic of AMI?]
+_graphic of AMI?_
+
+“People who’ve been in this community for a long time that preserve its historical character and who have also been suffering through a lot—just when the tide is rising you want those ships to be able to rise, too,” said John Ahmann, president & CEO, Westside Future Fund.
+
+Ahmann said the philanthropy model used on the Westside is neither scalable nor sustainable long-term, and that the city will eventually need to step in.
+
+Markley agreed that there’s not a simple solution for addressing housing equity. “It’s tricky because so much of \[displacement\] is baked into the system. Land value appreciation benefitting property owners is antagonistic to the idea of wanting to rent a place affordably.”
+
+Instead of thinking about housing as a mechanism for increasing profits, he said cities should consider its primary purpose — to shelter people.
+
+Georgia Tech’s Meng said another solution for Atlanta is a well-funded public housing system with subsidized rent; she also encouraged city officials to listen to residents’ concerns.
+
+"Residents have a lot of ideas about what they need, and it’s about the political will to try and do some of those things."
