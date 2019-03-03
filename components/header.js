@@ -37,7 +37,7 @@ class Header extends React.PureComponent {
                 </div>
                 <div style={{width: 720, maxWidth: 720, position: 'relative', top: 120, fontSize: '12px', lineHeight: '20px', color: '#4801FF', fontFamily: 'Silkscreen'}}>
                   <div>
-                    <div style={{fontWeight: 900, fontFamily: 'Graphik', fontSize: 48, lineHeight: '64px'}}>
+                    <div style={{fontWeight: 900, fontFamily: 'Graphik Web', fontSize: 48, lineHeight: '64px'}}>
                       {formatTitle(this.props.longTitle)}
                     </div>
                     <div>
@@ -84,7 +84,7 @@ class Header extends React.PureComponent {
           </h1>
         </div>
         <TextContainer {...props}>
-          <div style={{fontFamily: 'Graphik', fontSize: 32, line: 48}}>
+          <div style={{fontFamily: 'Graphik Web', fontSize: 32, line: 48}}>
             {this.props.dek}
           </div>
         </TextContainer>
