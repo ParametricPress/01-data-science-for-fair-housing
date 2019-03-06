@@ -30,7 +30,10 @@ Home valuations in the four, mostly-black neighborhoods that the fund covers inc
 
 Five-million dollars in philanthropic donations from the family foundation of Atlanta Falcons and Atlanta United owner Arthur Blank, as well as homegrown companies like Delta Air Lines and Chick-fil-A, support the tax fund program. It pays for property tax increases over the next 20 years for qualified owner-occupants who have lived in their homes for at least one year.
 
-[image style:`{width: '100%'}` src:"static/images/press-conference.jpg" /]
+[img 
+  src:"https://www.westsidefuturefund.org/wp-content/uploads/2016/09/ADTF-Press-Conference-Group-Photo-4.12.17.jpg" 
+  style:`{width: '100vw'}`/]
+
 [div className:'caption']
 Vine City resident Pastor Dexter Johnson; WFF Executive Director John Ahmann; Atlanta City Planning Commissioner Tim Keane; Atlanta City Council member Michael Bond; former Atlanta Mayor Kasim Reed; Atlanta City Council member Ivory Young; and then-City Council member and current Atlanta Mayor Keisha Lance Bottoms at the 2017 announcement of the Fund.
 [br /]
@@ -51,8 +54,6 @@ They also found that if the fund included the adjacent Washington Park neighborh
 
 // TODO - map
 // [Map info / Courtesy: Data Science for Social Good, Georgia Institute of Technology]
-_map_
-
 
 WALT representatives presented the findings to city planners, who, according to Meng, “just stuck to their guns.” She said money from the fund could instead be committed to programs that would help more residents, including renters. “If this is really about anti-displacement, can we take the money you’ve committed and put it somewhere else where there’s going to make more of an impact?”
 
