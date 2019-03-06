@@ -1,7 +1,7 @@
-
 .idyll-text-container img {
   border: 1px solid black;
 }
+
 .idyll-text-container canvas {
   border: 1px solid black;
 }
@@ -12,7 +12,6 @@
     max-width: 720px;
     margin: 0 auto;
   }
-
   .parametric-metadata {
     position: static;
     display: flex;
@@ -23,7 +22,6 @@
     font-size: 96px;
     line-height: 100px;
   }
-
 }
 
 @media all and (max-width: 1000px) {
@@ -31,7 +29,6 @@
     max-width: none;
     padding: 0;
   }
-
   h1.hed-rotate {
     display: none;
   }
@@ -39,6 +36,11 @@
     font-size: 96px;
     line-height: 100px;
   } */
+}
 
-
+.caption {
+  margin-top: 20px;
+  color: #888888;
+  line-height: 30px;
+  font-size: 16px;
 }
