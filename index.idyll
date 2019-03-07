@@ -55,6 +55,26 @@ They also found that if the fund included the adjacent Washington Park neighborh
 // TODO - map
 // [Map info / Courtesy: Data Science for Social Good, Georgia Institute of Technology]
 
+[div fullWidth:true ]
+
+test test
+
+[ReactMapGL
+  width:1000
+  height:600
+  latitude:33.7490
+  longitude:-84.3880
+  zoom:12
+  mapboxApiAccessToken:"pk.eyJ1IjoiZnJlZGhvaG1hbiIsImEiOiJjanN5dTh3eTkxNndxNGFvZHZsOTQwaWp1In0.wu_JzZZwU4mNSdHVb8HOqw"
+ /] 
+
+// [img 
+//   src:"https://www.westsidefuturefund.org/wp-content/uploads/2016/09/ADTF-Press-Conference-Group-Photo-4.12.17.jpg" 
+//   fullWidth:true style:`{width: '100vw'}`/]
+
+[/div]
+
+
 WALT representatives presented the findings to city planners, who, according to Meng, “just stuck to their guns.” She said money from the fund could instead be committed to programs that would help more residents, including renters. “If this is really about anti-displacement, can we take the money you’ve committed and put it somewhere else where there’s going to make more of an impact?”
 
 To date, Westside Future Fund has enrolled 92 out of 400 eligible homeowners in the Anti-Displacement Tax Fund.
