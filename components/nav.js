@@ -63,84 +63,44 @@ class Nav extends React.PureComponent {
               <div style={{marginBottom: '2em', display: 'flex', flexDirection: 'row', justifyContent: 'flex-end'}}>
                 <div>
                   <div style={{fontFamily: 'Graphik Web'}}>
-                    Decoding the JPEG
+                    What About the Renters?
                   </div>
                   <div style={{fontStyle: 'italic', fontWeight: 300, fontFamily: 'Graphik Web'}}>
-                    By Omar Shehata
+                    By Alyson Powell Key
                   </div>
                 </div>
                 <div style={{marginLeft: '1em', fontFamily: 'Graphik Web'}}>
                   01
                 </div>
               </div>
-            </div><div style={{textAlign: 'right', fontSize: 32}}>
+            </div>
+            <div style={{textAlign: 'right', fontSize: 32}}>
               <div style={{marginBottom: '2em', display: 'flex', flexDirection: 'row', justifyContent: 'flex-end'}}>
                 <div>
                   <div style={{fontFamily: 'Graphik Web'}}>
-                    Decoding the JPEG
+                    The Impact of Displacement
                   </div>
                   <div style={{fontStyle: 'italic', fontWeight: 300, fontFamily: 'Graphik Web'}}>
-                    By Omar Shehata
+                    By Alyson Powell Key
                   </div>
                 </div>
                 <div style={{marginLeft: '1em', fontFamily: 'Graphik Web'}}>
                   02
                 </div>
               </div>
-            </div><div style={{textAlign: 'right', fontSize: 32}}>
+            </div>
+            <div style={{textAlign: 'right', fontSize: 32}}>
               <div style={{marginBottom: '2em', display: 'flex', flexDirection: 'row', justifyContent: 'flex-end'}}>
                 <div>
                   <div style={{fontFamily: 'Graphik Web'}}>
-                    Decoding the JPEG
+                    Affordable Housing Solutions
                   </div>
                   <div style={{fontStyle: 'italic', fontWeight: 300, fontFamily: 'Graphik Web'}}>
-                    By Omar Shehata
+                    By Alyson Powell Key
                   </div>
                 </div>
                 <div style={{marginLeft: '1em', fontFamily: 'Graphik Web'}}>
                   03
-                </div>
-              </div>
-            </div><div style={{textAlign: 'right', fontSize: 32}}>
-              <div style={{marginBottom: '2em', display: 'flex', flexDirection: 'row', justifyContent: 'flex-end'}}>
-                <div>
-                  <div style={{fontFamily: 'Graphik Web'}}>
-                    Decoding the JPEG
-                  </div>
-                  <div style={{fontStyle: 'italic', fontWeight: 300, fontFamily: 'Graphik Web'}}>
-                    By Omar Shehata
-                  </div>
-                </div>
-                <div style={{marginLeft: '1em', fontFamily: 'Graphik Web'}}>
-                  04
-                </div>
-              </div>
-            </div><div style={{textAlign: 'right', fontSize: 32}}>
-              <div style={{marginBottom: '2em', display: 'flex', flexDirection: 'row', justifyContent: 'flex-end'}}>
-                <div>
-                  <div style={{fontFamily: 'Graphik Web'}}>
-                    Decoding the JPEG
-                  </div>
-                  <div style={{fontStyle: 'italic', fontWeight: 300, fontFamily: 'Graphik Web'}}>
-                    By Omar Shehata
-                  </div>
-                </div>
-                <div style={{marginLeft: '1em', fontFamily: 'Graphik Web'}}>
-                  05
-                </div>
-              </div>
-            </div><div style={{textAlign: 'right', fontSize: 32}}>
-              <div style={{marginBottom: '2em', display: 'flex', flexDirection: 'row', justifyContent: 'flex-end'}}>
-                <div>
-                  <div style={{fontFamily: 'Graphik Web'}}>
-                    Decoding the JPEG
-                  </div>
-                  <div style={{fontStyle: 'italic', fontWeight: 300, fontFamily: 'Graphik Web'}}>
-                    By Omar Shehata
-                  </div>
-                </div>
-                <div style={{marginLeft: '1em', fontFamily: 'Graphik Web'}}>
-                  06
                 </div>
               </div>
             </div>
