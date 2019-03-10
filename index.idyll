@@ -78,7 +78,7 @@ The Georgia Tech researchers found, and Westside Future Fund confirms, that 92-p
 [/div]
 
 
-WALT representatives presented the findings to city planners, who, Meng says, "stuck to their guns." Meng's research led her to believe that the tax fund money would be better spent if committed to programs dedicated to more vulnerable residents, like renters.To date, Westside Future Fund has enrolled 92 out of 400 eligible homeowners in the Anti-Displacement Tax Fund.
+WALT representatives presented the findings to city planners, who, Meng says, "stuck to their guns." Meng's research led her to believe that the tax fund money would be better spent if committed to programs dedicated to more vulnerable residents, like renters. To date, Westside Future Fund has enrolled 92 out of 400 eligible homeowners in the Anti-Displacement Tax Fund.
 
 "If this is really about anti-displacement, can we take the money you've committed and put it somewhere else, where it's going to make more of an impact?" Residents near the BeltLine's Eastside expansion [a href:"https://atlanta.curbed.com/2017/7/19/15995122/beltline-affordable-housing-lack-study"]have seen rents climb[/a] by at least 59-percent since 2005.
 
@@ -103,6 +103,8 @@ There are concerns that [a href:"https://www.ajc.com/news/local-govt--politics/t
 
 [div className:'caption']
 Beltline expansion map.
+
+[span fullWidth:true className:"comment"]Comment: reproduce this map in our parametric press style?[/span]
 [br /]
 Photo: [link text:"Atlanta Journal-Constituion" url:"https://www.ajc.com/news/local/atlanta-buys-unused-railroad-for-million-part-beltline-expansion/hPiqj7EWkJSTdG02CcHSvL/"/].
 [/div]
@@ -124,7 +126,7 @@ In the years since, Hispanic-owned businesses have also suffered. Markley recent
 Although his research began in Roswell, Markley expanded his scope to other nearby cities — Marietta, Brookhaven, Sandy Springs, and Smyrna — and discovered a similar pattern of redevelopment projects forcing thousands of mostly black and Hispanic renters from their homes. These cities have razed or proposed razing 21 apartment complexes since 2010, displacing more than nine-thousand residents. Census data shows that although Hispanic renters are one third of the area's total renter population, they make up nearly 60-percent of people displaced through demolition.
 
 [div fullWidth:true ]
-_Map of apartment demolitions_
+[span fullWidth:true className:"comment"]Comment: Map of apartment demolitions[/span]
 
 [br/]
 
@@ -151,18 +153,29 @@ Aside from helping Westside residents to maintain their homes, Westside Future F
 
 Last year they purchased two apartment complexes, Villas at the Dome and 603 Brawley, which now house around 60 families. By 2023, Westside Future Fund's goal is to create a mixed-income community including 800 affordable housing units for residents earning around $26-thousand a year or less, although they acknowledge that to help the most residents a lower target income is optimal.
 
-[div fullWidth:true ]
-_graphic of AMI?_
-
 [br/]
 
-[img 
-  src:"static/images/map-placeholder-2.png" 
-  fullWidth:true style:`{width: '100vw'}`/]
+[var name:"amiData" value:`[
+  {x: 30, y: 15750},
+  {x: 50, y: 26200},
+  {x: 60, y: 31440},
+  {x: 80, y: 41900},
+  {x: 100, y: 52400},
+  {x: 115, y: 60200},
+  {x: 120, y: 62850}
+]` /]
 
-[br/]
+[Chart type:"scatter" data:amiData domain:`[30, 120]` range:`[0, 70000]` theme:"material" /]
 
+[div className:'caption']
+[span fullWidth:true className:"comment"]Comment: linear trend, add axis labels and units[/span]
+
+Data source: [link text:"Invest Atlanta" url:"https://www.investatlanta.com/assets/2018_all_limits-rents_chart_april_DN3rwL1.pdf"/].
 [/div]
+
+
+[br/]
+
 
 "People who've been in this community for a long time that preserve its historical character and who have also been suffering through a lot—just when the tide is rising you want those ships to be able to rise, too," said John Ahmann, president & CEO, Westside Future Fund.
 

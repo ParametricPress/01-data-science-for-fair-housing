@@ -44,3 +44,12 @@
   line-height: 30px;
   font-size: 16px;
 }
+
+.idyll-text-container img {
+  border: none;
+}
+
+.comment {
+  color: red;
+  font-style: italic;
+}
