@@ -27,6 +27,15 @@ On a spring day in 2017 in the front yard of a small, cornflower-blue house on A
 
 Modeled after a similar program in Charleston, South Carolina, Atlanta non-profit [a href:"https://www.westsidefuturefund.org/"]Westside Future Fund[/a] established the Anti-Displacement Tax Fund program in response to a flurry of activity in the area. More people were moving from suburbs back to the city, the new Mercedes-Benz Stadium would soon welcome sports fans to Super Bowl LIII, and the city had recently completed a Westside expansion of the [a href:"https://beltline.org/about/the-atlanta-beltline-project/atlanta-beltline-overview/"]Atlanta BeltLine[/a], a project that turned an unused rail corridor into a multi-use trail.
 
+[Aside]
+[span className:"pull-number"]$150 → $1,800[/span]
+[br/]
+[span className:"pull-number-text"]
+The potential yearly increase in property taxes that resident's could see.
+[/span]
+[span className:"comment"]Comment: add a small "now" and "future" above the numbers[/span]
+[/Aside]
+
 According to Mitchell King, who oversaw implementation of the tax fund program and is now director of Community Engagement and External Affairs at Westside Future Fund, home valuations in the four predominantly black neighborhoods that the fund covers increased by 54-percent over the last tax cycle. "Things are moving, and they're moving quickly for a lot of folks," he said. A hike in property taxes could range from no increase at all to upwards of $1,800 a year; currently, the average homeowner pays around $150.
 
 Upon its launch, Westside Future Fund began publicizing details of the program in the media and at community meetings. Five-million dollars in philanthropic donations from the family foundation of businessman and Atlanta sports team owner Arthur Blank, as well as homegrown companies like Delta Air Lines and Chick-fil-A, support the fund. For qualified owner-occupants who have lived in their homes for at least one year, it fully pays for property tax increases over the next 20 years. The homeowner is responsible for a locked-in rate at the amount paid in the tax cycle immediately before their approval.
@@ -50,6 +59,14 @@ Amanda Meng, a research scientist in the Georgia Institute of Technology's Schoo
 Partnering with the Westside Atlanta Land Trust (WALT), a local community empowerment organization, she and a team of researchers and graduate students analyzed real estate data and historical tax assessments for five Westside Atlanta neighborhoods.
 
 They created an interactive online tool designed to show residents if they qualify for the Anti-Displacement Tax Fund, and projected property taxes for the first seven years of the program. Residents type their address into a search bar, and red and green dots on a map show whether or not they're eligible for the fund.
+
+[Aside]
+[span className:"pull-number"]92%[/span]
+[br/]
+[span className:"pull-number-text"]
+The percentage of residents who are renters, and are excluded from the fund.
+[/span]
+[/Aside]
 
 The Georgia Tech researchers found, and Westside Future Fund confirms, that 92-percent of residents who live in the 2.2 square mile English Avenue, Vine City, Atlanta University Center, and Ashview Heights neighborhoods are renters, disqualifying them from the fund. They also found that if the fund included the adjacent Washington Park neighborhood, which has been similarly affected by a rise in home values, but has a larger percentage of owner-occupants, eligibility for the program would significantly increase.
 
@@ -77,7 +94,6 @@ The Georgia Tech researchers found, and Westside Future Fund confirms, that 92-p
 
 [/div]
 
-
 WALT representatives presented the findings to city planners, who, Meng says, "stuck to their guns." Meng's research led her to believe that the tax fund money would be better spent if committed to programs dedicated to more vulnerable residents, like renters. To date, Westside Future Fund has enrolled 92 out of 400 eligible homeowners in the Anti-Displacement Tax Fund.
 
 "If this is really about anti-displacement, can we take the money you've committed and put it somewhere else, where it's going to make more of an impact?" Residents near the BeltLine's Eastside expansion [a href:"https://atlanta.curbed.com/2017/7/19/15995122/beltline-affordable-housing-lack-study"]have seen rents climb[/a] by at least 59-percent since 2005.
@@ -94,8 +110,7 @@ Before enrolling at Georgia Tech last fall, Blunt graduated from Spelman, one of
 
 "Along with the building of the stadium, developers are preparing to serve a different group of people," she said. "The types of apartments that are being built, the prices; the West End is going to be totally different in five years."
 
-There are concerns that [a href:"https://www.ajc.com/news/local-govt--politics/the-gulch-deal-explained-what-you-need-know-about-the-proposal/YVhVQeTzOl9ginjCrm5V1O/"]development of the mixed-use Gulch complex[/a] could further increase property values and displace long-time residents. And in February,
-[a href:"https://beltline.org/2019/02/14/atlanta-beltline-inc-announces-acquisition-of-key-westside-property/"]the City of Atlanta announced the $5.1 million purchase[/a] of an unused stretch of railroad corridor on the Westside to expand the BeltLine. A similar "rail-to-trail" project, Minneapolis' Midtown Greenway, could provide a glimpse into Atlanta's future. In the project's first decade, property values in the area increased by 90-percent, [a href:"https://www.minnpost.com/metro/2018/11/election-leads-to-historic-shake-up-in-hennepin-county/"]according to a former county commissioner[/a].
+There are concerns that [a href:"https://www.ajc.com/news/local-govt--politics/the-gulch-deal-explained-what-you-need-know-about-the-proposal/YVhVQeTzOl9ginjCrm5V1O/"]development of the mixed-use Gulch complex[/a] could further increase property values and displace long-time residents. And in February, [a href:"https://beltline.org/2019/02/14/atlanta-beltline-inc-announces-acquisition-of-key-westside-property/"]the City of Atlanta announced the $5.1 million purchase[/a] of an unused stretch of railroad corridor on the Westside to expand the BeltLine. A similar "rail-to-trail" project, Minneapolis' Midtown Greenway, could provide a glimpse into Atlanta's future. In the project's first decade, property values in the area increased by 90-percent, [a href:"https://www.minnpost.com/metro/2018/11/election-leads-to-historic-shake-up-in-hennepin-county/"]according to a former county commissioner[/a].
 
 [img 
   src:"https://www.ajc.com/rf/image_large/Pub/p10/AJC/2019/02/22/Images/beltlinepic.JPG" 
@@ -122,6 +137,14 @@ During visits home over the past five years, he noticed a trend in neighboring R
 In 2013, Roswell approved replacing a 152-unit apartment complex with upscale housing to increase property values. The city council argued that the demolition would reduce crime and turn around economic decline. Roswell's then-mayor Jere Wood told reporters that the "city is not in a position to help those people" displaced from the complex.
 
 In the years since, Hispanic-owned businesses have also suffered. Markley recently drove by an office complex that housed several of these businesses; it's now boarded up. "I don't know where the former residents went, and I don't know what happened to those businesses." Nearby, a new brewery and townhomes selling at a starting price of $700-thousand have sprung up.
+
+[Aside]
+[span className:"pull-number"]9000[/span]
+[br/]
+[span className:"pull-number-text"]
+The number of displaced people from the razing of apartment buildings for redevelopment projects, in 5 suburban Atlanta cities, since 2010.
+[/span]
+[/Aside]
 
 Although his research began in Roswell, Markley expanded his scope to other nearby cities — Marietta, Brookhaven, Sandy Springs, and Smyrna — and discovered a similar pattern of redevelopment projects forcing thousands of mostly black and Hispanic renters from their homes. These cities have razed or proposed razing 21 apartment complexes since 2010, displacing more than nine-thousand residents. Census data shows that although Hispanic renters are one third of the area's total renter population, they make up nearly 60-percent of people displaced through demolition.
 

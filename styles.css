@@ -53,3 +53,14 @@
   color: red;
   font-style: italic;
 }
+
+.pull-number {
+  font-size: 36px;
+  font-family: "Graphik Web";
+  font-weight: 800;
+}
+
+.pull-number-text {
+  font-size: 20px;
+  line-height: 18px !important;
+}
