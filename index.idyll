@@ -119,7 +119,7 @@ There are concerns that [a href:"https://www.ajc.com/news/local-govt--politics/t
 [div className:'caption']
 Beltline expansion map.
 
-[span fullWidth:true className:"comment"]Comment: reproduce this map in our parametric press style?[/span]
+[span className:"comment"]Comment: reproduce this map in our parametric press style?[/span]
 [br /]
 Photo: [link text:"Atlanta Journal-Constituion" url:"https://www.ajc.com/news/local/atlanta-buys-unused-railroad-for-million-part-beltline-expansion/hPiqj7EWkJSTdG02CcHSvL/"/].
 [/div]
@@ -149,7 +149,7 @@ The number of displaced people from the razing of apartment buildings for redeve
 Although his research began in Roswell, Markley expanded his scope to other nearby cities — Marietta, Brookhaven, Sandy Springs, and Smyrna — and discovered a similar pattern of redevelopment projects forcing thousands of mostly black and Hispanic renters from their homes. These cities have razed or proposed razing 21 apartment complexes since 2010, displacing more than nine-thousand residents. Census data shows that although Hispanic renters are one third of the area's total renter population, they make up nearly 60-percent of people displaced through demolition.
 
 [div fullWidth:true ]
-[span fullWidth:true className:"comment"]Comment: Map of apartment demolitions[/span]
+[span className:"comment"]Comment: Map of apartment demolitions[/span]
 
 [br/]
 
@@ -191,7 +191,7 @@ Last year they purchased two apartment complexes, Villas at the Dome and 603 Bra
 [Chart type:"scatter" data:amiData domain:`[30, 120]` range:`[0, 70000]` theme:"material" /]
 
 [div className:'caption']
-[span fullWidth:true className:"comment"]Comment: linear trend, add axis labels and units[/span]
+[span className:"comment"]Comment: linear trend, add axis labels and units[/span]
 
 Data source: [link text:"Invest Atlanta" url:"https://www.investatlanta.com/assets/2018_all_limits-rents_chart_april_DN3rwL1.pdf"/].
 [/div]
