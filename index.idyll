@@ -23,7 +23,7 @@
 
 On a spring day in 2017 in the front yard of a small, cornflower-blue house on Atlanta's historic Westside, Mayor Kasim Reed announced the launch of a new city-backed program. Its purpose: to stem the tide of rising property taxes and keep residents of some of the city's most impoverished neighborhoods in their homes.
 
-"The City of Atlanta is proud to launch this essential program which will help ensure that long-time residents get to share in the prosperity coming to the Westside," Reed said at the news conference announcing the fund. "This program is another stake in the ground to preserve the character and the history of our transformative Atlanta neighborhoods." 
+"The City of Atlanta is proud to launch this essential program which will help ensure that long-time residents get to share in the prosperity coming to the Westside," Reed said at the news conference announcing the fund. "This program is another stake in the ground to preserve the character and the history of our transformative Atlanta neighborhoods."
 
 Modeled after a similar program in Charleston, South Carolina, Atlanta non-profit [a href:"https://www.westsidefuturefund.org/"]Westside Future Fund[/a] established the Anti-Displacement Tax Fund program in response to a flurry of activity in the area. More people were moving from suburbs back to the city, the new Mercedes-Benz Stadium would soon welcome sports fans to Super Bowl LIII, and the city had recently completed a Westside expansion of the [a href:"https://beltline.org/about/the-atlanta-beltline-project/atlanta-beltline-overview/"]Atlanta BeltLine[/a], a project that turned an unused rail corridor into a multi-use trail.
 
@@ -40,8 +40,8 @@ According to Mitchell King, who oversaw implementation of the tax fund program a
 
 Upon its launch, Westside Future Fund began publicizing details of the program in the media and at community meetings. Five-million dollars in philanthropic donations from the family foundation of businessman and Atlanta sports team owner Arthur Blank, as well as homegrown companies like Delta Air Lines and Chick-fil-A, support the fund. For qualified owner-occupants who have lived in their homes for at least one year, it fully pays for property tax increases over the next 20 years. The homeowner is responsible for a locked-in rate at the amount paid in the tax cycle immediately before their approval.
 
-[img 
-  src:"https://www.westsidefuturefund.org/wp-content/uploads/2016/09/ADTF-Press-Conference-Group-Photo-4.12.17.jpg" 
+[img
+  src:"https://www.westsidefuturefund.org/wp-content/uploads/2016/09/ADTF-Press-Conference-Group-Photo-4.12.17.jpg"
   style:`{width: '100vw'}`/]
 
 [div className:'caption']
@@ -84,10 +84,10 @@ The Georgia Tech researchers found, and Westside Future Fund confirms, that 92-p
 //   longitude:-84.3880
 //   zoom:14
 //   mapboxApiAccessToken:"pk.eyJ1IjoiZnJlZGhvaG1hbiIsImEiOiJjanN5dTh3eTkxNndxNGFvZHZsOTQwaWp1In0.wu_JzZZwU4mNSdHVb8HOqw"
-//  /] 
+//  /]
 
-[img 
-  src:"static/images/map-placeholder-2.png" 
+[img
+  src:"static/images/map-placeholder-2.png"
   fullWidth:true style:`{width: '100vw'}`/]
 
 [br/]
@@ -102,18 +102,18 @@ To date, Westside Future Fund has enrolled 92 out of 400 eligible homeowners in 
 
 [hr/]
 
-Takeria Blunt, Meng's collaborator and a Ph.D. student in Georgia Tech's Digital Media Program, said the tool they developed shows the power of data science in shedding light on policies affecting poor communities. "We wanted to put out whatever raw data we had to spark conversation among community members; I think that's what the tool is most useful for." 
+Takeria Blunt, Meng's collaborator and a Ph.D. student in Georgia Tech's Digital Media Program, said the tool they developed shows the power of data science in shedding light on policies affecting poor communities. "We wanted to put out whatever raw data we had to spark conversation among community members; I think that's what the tool is most useful for."
 
 In October 2017, researchers demoed the tool to about 50 Westside residents during a neighborhood meeting at Lindsey Street Baptist Church. Residents were curious about the source of the researchers' data; they also wanted to see a visual comparison of program costs and eligibility between Georgia Tech's data and estimates provided by Westside Future Fund.
 
-Before enrolling at Georgia Tech last fall, Blunt graduated from Spelman, one of the country's oldest historically black colleges; for four years, she lived on the university's campus, located on the Westside. She has attended neighborhood meetings about housing justice and sees how gentrification is changing the community. 
+Before enrolling at Georgia Tech last fall, Blunt graduated from Spelman, one of the country's oldest historically black colleges; for four years, she lived on the university's campus, located on the Westside. She has attended neighborhood meetings about housing justice and sees how gentrification is changing the community.
 
 "Along with the building of the stadium, developers are preparing to serve a different group of people," she said. "The types of apartments that are being built, the prices; the West End is going to be totally different in five years."
 
 There are concerns that [a href:"https://www.ajc.com/news/local-govt--politics/the-gulch-deal-explained-what-you-need-know-about-the-proposal/YVhVQeTzOl9ginjCrm5V1O/"]development of the mixed-use Gulch complex[/a] could further increase property values and displace long-time residents. And in February, [a href:"https://beltline.org/2019/02/14/atlanta-beltline-inc-announces-acquisition-of-key-westside-property/"]the City of Atlanta announced the $5.1 million purchase[/a] of an unused stretch of railroad corridor on the Westside to expand the BeltLine. A similar "rail-to-trail" project, Minneapolis' Midtown Greenway, could provide a glimpse into Atlanta's future. In the project's first decade, property values in the area increased by 90-percent, [a href:"https://www.minnpost.com/metro/2018/11/election-leads-to-historic-shake-up-in-hennepin-county/"]according to a former county commissioner[/a].
 
-[img 
-  src:"https://www.ajc.com/rf/image_large/Pub/p10/AJC/2019/02/22/Images/beltlinepic.JPG" 
+[img
+  src:"https://www.ajc.com/rf/image_large/Pub/p10/AJC/2019/02/22/Images/beltlinepic.JPG"
   style:`{width: '100vw'}`/]
 
 [div className:'caption']
@@ -132,7 +132,7 @@ Blunt said she's not against development on the Westside if it's done the right 
 
 Scott Markley has been studying the impact of housing displacement in urban and suburban areas since 2014. The University of Georgia Ph.D. student grew up in Atlanta's northern suburbs, where his parents and grandmother still live. Markley and his family moved to the suburbs in the mid-1990s, settling in a subdivision with modest three and four-bedroom homes and several expansive fields. Today, Markley said, "huge McMansions" worth nearly one-million dollars now occupy the fields.
 
-During visits home over the past five years, he noticed a trend in neighboring Roswell, one of Georgia's largest cities: the city tearing down older apartment complexes housing mostly Hispanic renters and replacing them with new, high-end developments. 
+During visits home over the past five years, he noticed a trend in neighboring Roswell, one of Georgia's largest cities: the city tearing down older apartment complexes housing mostly Hispanic renters and replacing them with new, high-end developments.
 
 In 2013, Roswell approved replacing a 152-unit apartment complex with upscale housing to increase property values. The city council argued that the demolition would reduce crime and turn around economic decline. Roswell's then-mayor Jere Wood told reporters that the "city is not in a position to help those people" displaced from the complex.
 
@@ -153,15 +153,15 @@ Although his research began in Roswell, Markley expanded his scope to other near
 
 [br/]
 
-[img 
-  src:"static/images/map-placeholder-2.png" 
+[img
+  src:"static/images/map-placeholder-2.png"
   fullWidth:true style:`{width: '100vw'}`/]
 
 [br/]
 
 [/div]
 
-"The residents and their desires and their interests were almost entirely disregarded and the city more or less forced through the issue," Markley said. 
+"The residents and their desires and their interests were almost entirely disregarded and the city more or less forced through the issue," Markley said.
 
 Historically, Jim Crow laws and covenants between property owners enforced racially-segregated housing in the United States. In 1968, the Fair Housing Act made all housing discrimination unconstitutional, but, as Markley's research shows, over the past two decades, cities like those in Atlanta's northern suburbs have continued to covertly exclude racial minorities from living in white communities. They use coded language like "reduced property values," "overcrowding," and "increased crime" to oppose affordable housing construction. They've also added another strategy in an effort to preserve majority white populations: legislating forced evictions with redevelopment projects.
 Over the past two decades, according to Markley, cities like those in Atlanta's northern suburbs have switched strategies in an effort to preserve majority white populations. In addition to continuing to covertly exclude racial minorities from living in white communities, cities are also legislating forced evictions through redevelopment projects.
@@ -172,7 +172,7 @@ Grasping the full impact of displacement on families is difficult. Where do they
 
 ## Affordable Housing Solutions
 
-Aside from helping Westside residents to maintain their homes, Westside Future Fund is also currently working to provide more affordable housing for renters. As owners cash out their increasingly valuable properties, the non-profit is buying land through philanthropic donations and preserving it for affordable housing units. 
+Aside from helping Westside residents to maintain their homes, Westside Future Fund is also currently working to provide more affordable housing for renters. As owners cash out their increasingly valuable properties, the non-profit is buying land through philanthropic donations and preserving it for affordable housing units.
 
 Last year they purchased two apartment complexes, Villas at the Dome and 603 Brawley, which now house around 60 families. By 2023, Westside Future Fund's goal is to create a mixed-income community including 800 affordable housing units for residents earning around $26-thousand a year or less, although they acknowledge that to help the most residents a lower target income is optimal.
 
