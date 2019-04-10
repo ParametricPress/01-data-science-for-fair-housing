@@ -14,10 +14,10 @@
   },
   "dependencies": {
     "d3": "^4.0.0",
-    "idyll": "^4.0.2-alpha.0",
+    "idyll": "^4.0.7",
     "idyll-d3-component": "^2.0.0",
-    "parametric-components": "^1.0.1",
-    "parametric-styles": "^1.0.0",
+    "parametric-components": "^1.0.6",
+    "parametric-styles": "^1.0.4",
     "react-image": "^2.0.0",
     "react-map-gl": "^4.0.14"
   },

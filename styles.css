@@ -38,11 +38,15 @@
   } */
 }
 
-.caption {
-  margin-top: 20px;
-  color: #888888;
-  line-height: 30px;
-  font-size: 16px;
+.parametric-caption {
+  font-size: 14px;
+  line-height: 1.25;
+  font-family: 'Graphik Web';
+  margin-top: 1em;
+  margin-bottom: 2em;
+  /* color: #888888; */
+  /* line-height: 30px; */
+  /* font-size: 16px; */
 }
 
 .idyll-text-container img {
@@ -58,9 +62,14 @@
   font-size: 36px;
   font-family: "Graphik Web";
   font-weight: 800;
+  width: 100%;
+  display: block;
+  border-bottom: solid 2px #222;
+  line-height: 1.25;
+  margin-bottom: 5px;
 }
 
 .pull-number-text {
-  font-size: 20px;
-  line-height: 18px !important;
+  /* font-size: 20px;
+  line-height: 18px !important; */
 }
