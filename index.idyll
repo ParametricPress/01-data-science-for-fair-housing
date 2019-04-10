@@ -7,6 +7,7 @@
   longTitle:`["The Data Science", "of Housing Equity"]`
   date:"April 15, 2019"
   dek:"Researchers are using the power of data science to study the effectiveness of an anti-displacement housing program for one city's most vulnerable residents."
+  headerImage:"static/images/atlanta.jpeg"
 
   fullWidth:true
   authors:`[{
@@ -77,18 +78,18 @@ The Georgia Tech researchers found, and Westside Future Fund confirms, that 92-p
 
 [br/]
 
-// [ReactMapGL
-//   width:'100%'
-//   height:800
-//   latitude:33.7490
-//   longitude:-84.3880
-//   zoom:14
-//   mapboxApiAccessToken:"pk.eyJ1IjoiZnJlZGhvaG1hbiIsImEiOiJjanN5dTh3eTkxNndxNGFvZHZsOTQwaWp1In0.wu_JzZZwU4mNSdHVb8HOqw"
-//  /]
+[ReactMapGL
+  width:'100%'
+  height:800
+  latitude:33.7490
+  longitude:-84.3880
+  zoom:14
+  mapboxApiAccessToken:"pk.eyJ1IjoiZnJlZGhvaG1hbiIsImEiOiJjanN5dTh3eTkxNndxNGFvZHZsOTQwaWp1In0.wu_JzZZwU4mNSdHVb8HOqw"
+ /]
 
-[img
-  src:"static/images/map-placeholder-2.png"
-  fullWidth:true style:`{width: '100vw'}`/]
+// [img
+//   src:"static/images/map-placeholder-2.png"
+//   fullWidth:true style:`{width: '100vw'}`/]
 
 [br/]
 
@@ -211,3 +212,5 @@ Instead of thinking about housing as a mechanism for increasing profits, he said
 Georgia Tech's Meng said another solution for Atlanta is a well-funded public housing system with subsidized rent; she also encouraged city officials to listen to residents' concerns.
 
 "Residents have a lot of ideas about what they need, and it's about the political will to try and do some of those things."
+
+// [NextArticle fullWidth:true /]
