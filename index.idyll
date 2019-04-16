@@ -7,14 +7,9 @@
   longTitle:`["The Data Science", "of Housing Equity"]`
   date:"April 15, 2019"
   dek:"Researchers are using the power of data science to study the effectiveness of an anti-displacement housing program for one city's most vulnerable residents."
-  headerImage:"static/images/atlanta.jpeg"
-
   fullWidth:true
   authors:`[{
     name: "Alyson Powell Key",
-    role: ''
-  }, {
-    name: "Fred Hohman",
     role: ''
   }]`
   doi:""
@@ -216,4 +211,13 @@ Georgia Tech's Meng said another solution for Atlanta is a well-funded public ho
 
 "Residents have a lot of ideas about what they need, and it's about the political will to try and do some of those things."
 
-[NextArticle fullWidth:true /]
+[AuthorBio]
+**Alyson Powell Key** TK.
+
+Edited by Fred Hohman.
+[/AuthorBio]
+
+[NextArticle /]
+
+[Footer fullWidth:true /]
+
