@@ -72,18 +72,18 @@ The Georgia Tech researchers found, and Westside Future Fund confirms, that 92-p
 
 [br/]
 
-[ReactMapGL
-  width:'100%'
-  height:800
-  latitude:33.7490
-  longitude:-84.3880
-  zoom:14
-  mapboxApiAccessToken:"pk.eyJ1IjoiZnJlZGhvaG1hbiIsImEiOiJjanN5dTh3eTkxNndxNGFvZHZsOTQwaWp1In0.wu_JzZZwU4mNSdHVb8HOqw"
- /]
+// [ReactMapGL
+//   width:'100%'
+//   height:800
+//   latitude:33.7490
+//   longitude:-84.3880
+//   zoom:14
+//   mapboxApiAccessToken:"pk.eyJ1IjoiZnJlZGhvaG1hbiIsImEiOiJjanN5dTh3eTkxNndxNGFvZHZsOTQwaWp1In0.wu_JzZZwU4mNSdHVb8HOqw"
+//  /]
 
-// [img
-//   src:"static/images/map-placeholder-2.png"
-//   fullWidth:true style:`{width: '100vw'}`/]
+[img
+  src:"static/images/map-placeholder-1.png"
+  fullWidth:true style:`{width: '100vw'}`/]
 
 [br/]
 
@@ -148,7 +148,7 @@ Although his research began in Roswell, Markley expanded his scope to other near
 [br/]
 
 [img
-  src:"static/images/map-placeholder-2.png"
+  src:"static/images/map-placeholder-1.png"
   fullWidth:true style:`{width: '100vw'}`/]
 
 [br/]
@@ -185,7 +185,7 @@ Last year they purchased two apartment complexes, Villas at the Dome and 603 Bra
 [Chart type:"scatter" data:amiData domain:`[30, 120]` range:`[0, 70000]` theme:"material" /]
 
 [div className:'parametric-caption']
-[span className:"comment"]Comment: linear trend, add axis labels and units[/span]
+[span className:"comment"]Comment: likely remove this[/span]
 
 Data source: [link text:"Invest Atlanta" url:"https://www.investatlanta.com/assets/2018_all_limits-rents_chart_april_DN3rwL1.pdf"/].
 [/div]
