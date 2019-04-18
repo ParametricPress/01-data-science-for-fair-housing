@@ -24,13 +24,10 @@ On a spring day in 2017 in the front yard of a small, cornflower-blue house on A
 Modeled after a similar program in Charleston, South Carolina, Atlanta non-profit [a href:"https://www.westsidefuturefund.org/"]Westside Future Fund[/a] established the Anti-Displacement Tax Fund program in response to a flurry of activity in the area. More people were moving from suburbs back to the city, the new Mercedes-Benz Stadium would soon welcome sports fans to Super Bowl LIII, and the city had recently completed a Westside expansion of the [a href:"https://beltline.org/about/the-atlanta-beltline-project/atlanta-beltline-overview/"]Atlanta BeltLine[/a], a project that turned an unused rail corridor into a multi-use trail.
 
 [Aside]
-[span className:"pull-number"]$150 → $1,800[/span]
-// [br/]
-[span className:"pull-number-text"]
-The potential yearly increase in property taxes that resident's could see.
-[/span]
-[br/][br/]
-[span className:"comment"]Comment: add a small "now" and "future" above the numbers[/span]
+  [span className:"pull-number"]$150 → $1,800[/span]
+  [span className:"pull-number-text"]
+    The potential yearly increase in property taxes that resident's could see.
+  [/span]
 [/Aside]
 
 According to Mitchell King, who oversaw implementation of the tax fund program and is now director of Community Engagement and External Affairs at Westside Future Fund, home valuations in the four predominantly black neighborhoods that the fund covers increased by 54-percent over the last tax cycle. "Things are moving, and they're moving quickly for a lot of folks," he said. A hike in property taxes could range from no increase at all to upwards of $1,800 a year; currently, the average homeowner pays around $150.
@@ -38,7 +35,7 @@ According to Mitchell King, who oversaw implementation of the tax fund program a
 Upon its launch, Westside Future Fund began publicizing details of the program in the media and at community meetings. Five-million dollars in philanthropic donations from the family foundation of businessman and Atlanta sports team owner Arthur Blank, as well as homegrown companies like Delta Air Lines and Chick-fil-A, support the fund. For qualified owner-occupants who have lived in their homes for at least one year, it fully pays for property tax increases over the next 20 years. The homeowner is responsible for a locked-in rate at the amount paid in the tax cycle immediately before their approval.
 
 [fullWidth]
-  [div style:`{margin: '1em 2em 1em auto', maxWidth: 1000}`]
+  [div style:`{marginLeft: '50px', maxWidth: 800}`]
     [img
       src:"https://www.westsidefuturefund.org/wp-content/uploads/2016/09/ADTF-Press-Conference-Group-Photo-4.12.17.jpg"
       /]
@@ -60,11 +57,10 @@ Partnering with the Westside Atlanta Land Trust (WALT), a local community empowe
 They created an interactive online tool designed to show residents if they qualify for the Anti-Displacement Tax Fund, and projected property taxes for the first seven years of the program. Residents type their address into a search bar, and red and green dots on a map show whether or not they're eligible for the fund.
 
 [Aside]
-[span className:"pull-number"]92%[/span]
-// [br/]
-[span className:"pull-number-text"]
-The percentage of residents who are renters, and are excluded from the fund.
-[/span]
+  [span className:"pull-number"]92%[/span]
+  [span className:"pull-number-text"]
+    The percentage of residents who are renters, and are excluded from the fund.
+  [/span]
 [/Aside]
 
 The Georgia Tech researchers found, and Westside Future Fund confirms, that 92-percent of residents who live in the 2.2 square mile English Avenue, Vine City, Atlanta University Center, and Ashview Heights neighborhoods are renters, disqualifying them from the fund. They also found that if the fund included the adjacent Washington Park neighborhood, which has been similarly affected by a rise in home values, but has a larger percentage of owner-occupants, eligibility for the program would significantly increase.
@@ -138,11 +134,10 @@ In 2013, Roswell approved replacing a 152-unit apartment complex with upscale ho
 In the years since, Hispanic-owned businesses have also suffered. Markley recently drove by an office complex that housed several of these businesses; it's now boarded up. "I don't know where the former residents went, and I don't know what happened to those businesses." Nearby, a new brewery and townhomes selling at a starting price of $700-thousand have sprung up.
 
 [Aside]
-[span className:"pull-number"]9000[/span]
-[br/]
-[span className:"pull-number-text"]
-The number of displaced people from the razing of apartment buildings for redevelopment projects, in 5 suburban Atlanta cities, since 2010.
-[/span]
+  [span className:"pull-number"]9000[/span]
+  [span className:"pull-number-text"]
+    The number of displaced people from the razing of apartment buildings for redevelopment projects, in 5 suburban Atlanta cities, since 2010.
+  [/span]
 [/Aside]
 
 Although his research began in Roswell, Markley expanded his scope to other nearby cities — Marietta, Brookhaven, Sandy Springs, and Smyrna — and discovered a similar pattern of redevelopment projects forcing thousands of mostly black and Hispanic renters from their homes. These cities have razed or proposed razing 21 apartment complexes since 2010, displacing more than nine-thousand residents. Census data shows that although Hispanic renters are one third of the area's total renter population, they make up nearly 60-percent of people displaced through demolition.
