@@ -1,0 +1,293 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -84.37946115799997,
+          33.885175428000025
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "apt_name": "Avistele at Andalusia",
+        "city": "Sandy Springs",
+        "est_pop10": 855,
+        "yr_dem": "2016"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.38113722099996,
+          33.881276211000056
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "apt_name": "Versailles",
+        "city": "Sandy Springs",
+        "est_pop10": 597,
+        "yr_dem": "2014"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.35608666599995,
+          34.02645751000005
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "apt_name": "Frazier Street",
+        "city": "Roswell",
+        "est_pop10": 588,
+        "yr_dem": "2013"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.38113443899994,
+          33.93454472600007
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "apt_name": "Provence North",
+        "city": "Sandy Springs",
+        "est_pop10": 333,
+        "yr_dem": "2015"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          84.54223858199998,
+          33.89239590900007
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "apt_name": "Hickory Lake",
+        "city": "Smyrna",
+        "est_pop10": 1754,
+        "yr_dem": "2011"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.55477636999996,
+          33.93987550400004
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "apt_name": "Wynhaven",
+        "city": "Marietta",
+        "est_pop10": 521,
+        "yr_dem": "2016"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.49249122799995,
+          33.92996313700007
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "apt_name": "Marquis Place",
+        "city": "Marietta",
+        "est_pop10": 938,
+        "yr_dem": "2016"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.49966210899998,
+          33.935276388000034
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "apt_name": "Flagstaff Village",
+        "city": "Marietta",
+        "est_pop10": 386,
+        "yr_dem": "2015"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.52613365199994,
+          33.953689920000045
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "apt_name": "Boston Homes",
+        "city": "Marietta",
+        "est_pop10": 159,
+        "yr_dem": "2010"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.54282061799995,
+          33.954940985000064
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "apt_name": "Fort Hill Homes",
+        "city": "Marietta",
+        "est_pop10": 278,
+        "yr_dem": "2013"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.38252775499996,
+          33.89029294200003
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "apt_name": "Belle Isle",
+        "city": "Sandy Springs",
+        "est_pop10": 31,
+        "yr_dem": "2017"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.38145637599996,
+          33.88000026000003
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "apt_name": "Chastain",
+        "city": "Sandy Springs",
+        "est_pop10": 773,
+        "yr_dem": "2014"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.49741344899996,
+          33.933942874000024
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "apt_name": "Woodlands Park",
+        "city": "Marietta",
+        "est_pop10": 428,
+        "yr_dem": "2015"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.34238376899998,
+          33.833031161000065
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "apt_name": "Summit View",
+        "city": "Brookhaven",
+        "est_pop10": 214,
+        "yr_dem": "2014"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.33385865699995,
+          33.84443427100007
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "apt_name": "North Cliff Valley",
+        "city": "Brookhaven",
+        "est_pop10": 193,
+        "yr_dem": "2016"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.33196772399998,
+          33.84607692100008
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "apt_name": "Lenox townhomes",
+        "city": "Brookhaven",
+        "est_pop10": 242,
+        "yr_dem": "2015"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.33196588599996,
+          33.845122683000056
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "apt_name": "Park Villa",
+        "city": "Brookhaven",
+        "est_pop10": 343,
+        "yr_dem": "2017"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -84.313014492,
+          33.86005663000003
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "apt_name": "Bryton Hills",
+        "city": "Brookhaven",
+        "est_pop10": 458,
+        "yr_dem": "2016"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

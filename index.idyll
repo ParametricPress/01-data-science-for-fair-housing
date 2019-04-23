@@ -2,6 +2,9 @@
 
 [Nav fullWidth:true /]
 
+[data name:"apartmentsGeoJSON" source:"apts.json" /]
+[data name:"AshviewHeightsGeoJSON" source:"AshviewHeights.json" /]
+
 [Header
   title:`["Housing", "Equity"]`
   longTitle:`["The Data Science", "of Housing Equity"]`
@@ -78,9 +81,11 @@ The Georgia Tech researchers found, and Westside Future Fund confirms, that 92-p
 //   mapboxApiAccessToken:"pk.eyJ1IjoiZnJlZGhvaG1hbiIsImEiOiJjanN5dTh3eTkxNndxNGFvZHZsOTQwaWp1In0.wu_JzZZwU4mNSdHVb8HOqw"
 //  /]
 
-[img
-  src:"static/images/map-placeholder-1.png"
-  fullWidth:true style:`{width: '100vw'}`/]
+// [img
+//   src:"static/images/map-placeholder-1.png"
+//   fullWidth:true style:`{width: '100vw'}`/]
+
+[Map geoJSON:apartmentsGeoJSON initialViewport:`{latitude: 33.7490, longitude: -84.3880, zoom: 8}` /]
 
 [br/]
 
@@ -140,9 +145,12 @@ Although his research began in Roswell, Markley expanded his scope to other near
 
 [br/]
 
-[img
-  src:"static/images/map-placeholder-1.png"
-  fullWidth:true style:`{width: '100vw'}`/]
+// [img
+//   src:"static/images/map-placeholder-1.png"
+//   fullWidth:true style:`{width: '100vw'}`/]
+
+[Map geoJSON:AshviewHeightsGeoJSON initialViewport:`{latitude: 33.7490, longitude: -84.3880, zoom: 8}` /]
+
 
 [br/]
 
@@ -208,7 +216,7 @@ Georgia Tech's Meng said another solution for Atlanta is a well-funded public ho
 Edited by Fred Hohman.
 [/AuthorBio]
 
-[NextArticle /]
+[NextArticle fullWidth:true /]
 
 [Footer fullWidth:true /]
 
