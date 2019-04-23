@@ -28,25 +28,21 @@ Modeled after a similar program in Charleston, South Carolina, Atlanta non-profi
   [span className:"pull-number-text"]
     The potential yearly increase in property taxes that resident's could see.
   [/span]
+  [br/][br/]
 [/Aside]
 
 According to Mitchell King, who oversaw implementation of the tax fund program and is now director of Community Engagement and External Affairs at Westside Future Fund, home valuations in the four predominantly black neighborhoods that the fund covers increased by 54-percent over the last tax cycle. "Things are moving, and they're moving quickly for a lot of folks," he said. A hike in property taxes could range from no increase at all to upwards of $1,800 a year; currently, the average homeowner pays around $150.
 
 Upon its launch, Westside Future Fund began publicizing details of the program in the media and at community meetings. Five-million dollars in philanthropic donations from the family foundation of businessman and Atlanta sports team owner Arthur Blank, as well as homegrown companies like Delta Air Lines and Chick-fil-A, support the fund. For qualified owner-occupants who have lived in their homes for at least one year, it fully pays for property tax increases over the next 20 years. The homeowner is responsible for a locked-in rate at the amount paid in the tax cycle immediately before their approval.
 
-[fullWidth]
-  [div style:`{marginLeft: '50px', maxWidth: 800}`]
-    [img
-      src:"https://www.westsidefuturefund.org/wp-content/uploads/2016/09/ADTF-Press-Conference-Group-Photo-4.12.17.jpg"
-      /]
-
-    [div className:'parametric-caption']
-    Vine City resident Pastor Dexter Johnson; WFF Executive Director John Ahmann; Atlanta City Planning Commissioner Tim Keane; Atlanta City Council member Michael Bond; former Atlanta Mayor Kasim Reed; Atlanta City Council member Ivory Young; and then-City Council member and current Atlanta Mayor Keisha Lance Bottoms at the 2017 announcement of the Fund.
-    [br /]
-    Photo: [link text:"The Westside Future Fund" url:"https://www.westsidefuturefund.org/wp-content/uploads/2016/09/ADTF-Press-Conference-Group-Photo-4.12.17_600px_v2.jpg" /].
-    [/div]
-  [/div]
-[/fullWidth]
+[a href:"static/svg/apts.svg"]
+  [img src:"https://www.westsidefuturefund.org/wp-content/uploads/2016/09/ADTF-Press-Conference-Group-Photo-4.12.17.jpg"/]
+[/a]
+[div className:'parametric-caption']
+  Vine City resident Pastor Dexter Johnson; WFF Executive Director John Ahmann; Atlanta City Planning Commissioner Tim Keane; Atlanta City Council member Michael Bond; former Atlanta Mayor Kasim Reed; Atlanta City Council member Ivory Young; and then-City Council member and current Atlanta Mayor Keisha Lance Bottoms at the 2017 announcement of the Fund.
+  [br /]
+  Photo: [link text:"The Westside Future Fund" url:"https://www.westsidefuturefund.org/wp-content/uploads/2016/09/ADTF-Press-Conference-Group-Photo-4.12.17_600px_v2.jpg" /].
+[/div]
 
 Amanda Meng, a research scientist in the Georgia Institute of Technology's School of Computer Science, was in the crowd of onlookers the day Mayor Reed announced the Anti-Displacement Tax Fund in 2017. She recalls that the owner of the little blue house in the English Avenue community, a nurse with the Veterans Administration, wasn't home at the time; she chose to go to work instead. A next-door neighbor had a few questions for the mayor.
 
@@ -61,6 +57,7 @@ They created an interactive online tool designed to show residents if they quali
   [span className:"pull-number-text"]
     The percentage of residents who are renters, and are excluded from the fund.
   [/span]
+  [br/][br/]
 [/Aside]
 
 The Georgia Tech researchers found, and Westside Future Fund confirms, that 92-percent of residents who live in the 2.2 square mile English Avenue, Vine City, Atlanta University Center, and Ashview Heights neighborhoods are renters, disqualifying them from the fund. They also found that if the fund included the adjacent Washington Park neighborhood, which has been similarly affected by a rise in home values, but has a larger percentage of owner-occupants, eligibility for the program would significantly increase.
@@ -107,19 +104,14 @@ Before enrolling at Georgia Tech last fall, Blunt graduated from Spelman, one of
 
 There are concerns that [a href:"https://www.ajc.com/news/local-govt--politics/the-gulch-deal-explained-what-you-need-know-about-the-proposal/YVhVQeTzOl9ginjCrm5V1O/"]development of the mixed-use Gulch complex[/a] could further increase property values and displace long-time residents. And in February, [a href:"https://beltline.org/2019/02/14/atlanta-beltline-inc-announces-acquisition-of-key-westside-property/"]the City of Atlanta announced the $5.1 million purchase[/a] of an unused stretch of railroad corridor on the Westside to expand the BeltLine. A similar "rail-to-trail" project, Minneapolis' Midtown Greenway, could provide a glimpse into Atlanta's future. In the project's first decade, property values in the area increased by 90-percent, [a href:"https://www.minnpost.com/metro/2018/11/election-leads-to-historic-shake-up-in-hennepin-county/"]according to a former county commissioner[/a].
 
-[img
-  src:"https://www.ajc.com/rf/image_large/Pub/p10/AJC/2019/02/22/Images/beltlinepic.JPG"
-  style:`{width: '100vw'}`/]
-
+[a href:"static/svg/apts.svg"]
+  [img src:"https://www.ajc.com/rf/image_large/Pub/p10/AJC/2019/02/22/Images/beltlinepic.JPG"/]
+[/a]
 [div className:'parametric-caption']
-Beltline expansion map.
-
-[span className:"comment"]Comment: reproduce this map in our parametric press style?[/span]
-[br /]
-Photo: [link text:"Atlanta Journal-Constituion" url:"https://www.ajc.com/news/local/atlanta-buys-unused-railroad-for-million-part-beltline-expansion/hPiqj7EWkJSTdG02CcHSvL/"/].
+  Beltline expansion map.
+  [br /]
+  Photo: [link text:"Atlanta Journal-Constituion" url:"https://www.ajc.com/news/local/atlanta-buys-unused-railroad-for-million-part-beltline-expansion/hPiqj7EWkJSTdG02CcHSvL/"/].
 [/div]
-
-[br /]
 
 Blunt said she's not against development on the Westside if it's done the right way. "Change is good when it's bettering quality of life, but people who have been there for a long time won't get to experience that, because they can't afford to live in that area anymore."
 
@@ -134,10 +126,11 @@ In 2013, Roswell approved replacing a 152-unit apartment complex with upscale ho
 In the years since, Hispanic-owned businesses have also suffered. Markley recently drove by an office complex that housed several of these businesses; it's now boarded up. "I don't know where the former residents went, and I don't know what happened to those businesses." Nearby, a new brewery and townhomes selling at a starting price of $700-thousand have sprung up.
 
 [Aside]
-  [span className:"pull-number"]9000[/span]
+  [span className:"pull-number"]9091[/span]
   [span className:"pull-number-text"]
-    The number of displaced people from the razing of apartment buildings for redevelopment projects, in 5 suburban Atlanta cities, since 2010.
+    The estimated number of displaced people from the razing of apartment buildings for redevelopment projects, in 5 suburban Atlanta cities, since 2010.
   [/span]
+  [br/][br/]
 [/Aside]
 
 Although his research began in Roswell, Markley expanded his scope to other nearby cities — Marietta, Brookhaven, Sandy Springs, and Smyrna — and discovered a similar pattern of redevelopment projects forcing thousands of mostly black and Hispanic renters from their homes. These cities have razed or proposed razing 21 apartment complexes since 2010, displacing more than nine-thousand residents. Census data shows that although Hispanic renters are one third of the area's total renter population, they make up nearly 60-percent of people displaced through demolition.
@@ -160,6 +153,9 @@ Although his research began in Roswell, Markley expanded his scope to other near
 Historically, Jim Crow laws and covenants between property owners enforced racially-segregated housing in the United States. In 1968, the Fair Housing Act made all housing discrimination unconstitutional, but, as Markley's research shows, over the past two decades, cities like those in Atlanta's northern suburbs have continued to covertly exclude racial minorities from living in white communities. They use coded language like "reduced property values," "overcrowding," and "increased crime" to oppose affordable housing construction. They've also added another strategy in an effort to preserve majority white populations: legislating forced evictions with redevelopment projects.
 Over the past two decades, according to Markley, cities like those in Atlanta's northern suburbs have switched strategies in an effort to preserve majority white populations. In addition to continuing to covertly exclude racial minorities from living in white communities, cities are also legislating forced evictions through redevelopment projects.
 
+[a href:"static/svg/apts.svg"][SVG src:"static/svg/apts.svg" /][/a]
+[caption][a href:"static/svg/apts.svg"]Click to dowload image.[/a][/caption]
+
 "It's difficult for people moving out of a community in which they've settled. Away from the people they know, away from the area that's considered home, especially if you have kids who are taken out of school during the school year, which can have a detrimental impact on their grades and social life."
 
 Grasping the full impact of displacement on families is difficult. Where do they live now? Did they find affordable housing near work and school? Apartment demolition creates a rental market where demand exceeds supply, worsening the affordable housing crisis.
@@ -170,28 +166,28 @@ Aside from helping Westside residents to maintain their homes, Westside Future F
 
 Last year they purchased two apartment complexes, Villas at the Dome and 603 Brawley, which now house around 60 families. By 2023, Westside Future Fund's goal is to create a mixed-income community including 800 affordable housing units for residents earning around $26-thousand a year or less, although they acknowledge that to help the most residents a lower target income is optimal.
 
-[br/]
+// [br/]
 
-[var name:"amiData" value:`[
-  {x: 30, y: 15750},
-  {x: 50, y: 26200},
-  {x: 60, y: 31440},
-  {x: 80, y: 41900},
-  {x: 100, y: 52400},
-  {x: 115, y: 60200},
-  {x: 120, y: 62850}
-]` /]
+// [var name:"amiData" value:`[
+//   {x: 30, y: 15750},
+//   {x: 50, y: 26200},
+//   {x: 60, y: 31440},
+//   {x: 80, y: 41900},
+//   {x: 100, y: 52400},
+//   {x: 115, y: 60200},
+//   {x: 120, y: 62850}
+// ]` /]
 
-[Chart type:"scatter" data:amiData domain:`[30, 120]` range:`[0, 70000]` theme:"material" /]
+// [Chart type:"scatter" data:amiData domain:`[30, 120]` range:`[0, 70000]` theme:"material" /]
 
-[div className:'parametric-caption']
-[span className:"comment"]Comment: likely remove this[/span]
+// [div className:'parametric-caption']
+// [span className:"comment"]Comment: likely remove this[/span]
 
-Data source: [link text:"Invest Atlanta" url:"https://www.investatlanta.com/assets/2018_all_limits-rents_chart_april_DN3rwL1.pdf"/].
-[/div]
+// Data source: [link text:"Invest Atlanta" url:"https://www.investatlanta.com/assets/2018_all_limits-rents_chart_april_DN3rwL1.pdf"/].
+// [/div]
 
 
-[br/]
+// [br/]
 
 
 "People who've been in this community for a long time that preserve its historical character and who have also been suffering through a lot—just when the tide is rising you want those ships to be able to rise, too," said John Ahmann, president & CEO, Westside Future Fund.
@@ -207,7 +203,7 @@ Georgia Tech's Meng said another solution for Atlanta is a well-funded public ho
 "Residents have a lot of ideas about what they need, and it's about the political will to try and do some of those things."
 
 [AuthorBio]
-**Alyson Powell Key** TK.
+**Alyson Powell Key** is a science and technology writer and communications professional based in Atlanta, Georgia.
 
 Edited by Fred Hohman.
 [/AuthorBio]
