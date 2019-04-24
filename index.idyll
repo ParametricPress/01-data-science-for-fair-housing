@@ -4,6 +4,8 @@
 
 [data name:"apartmentsGeoJSON" source:"apts.json" /]
 [data name:"atlantaHousesGeoJSON" source:"atlanta-houses.json" /]
+// [data name:"atlantaHousesGeoJSON" source:"atlanta-houses-points.json" /]
+// [data name:"atlantaHousesGeoJSON" source:"atlanta-houses-outlines.json" /]
 
 [Header
   title:`["Housing", "Equity"]`
