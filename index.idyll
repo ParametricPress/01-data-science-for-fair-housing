@@ -38,7 +38,7 @@ According to Mitchell King, who oversaw implementation of the tax fund program a
 
 Upon its launch, Westside Future Fund began publicizing details of the program in the media and at community meetings. Five-million dollars in philanthropic donations from the family foundation of businessman and Atlanta sports team owner Arthur Blank, as well as homegrown companies like Delta Air Lines and Chick-fil-A, support the fund. For qualified owner-occupants who have lived in their homes for at least one year, it fully pays for property tax increases over the next 20 years. The homeowner is responsible for a locked-in rate at the amount paid in the tax cycle immediately before their approval.
 
-[a href:"static/svg/apts.svg"]
+[a href:"https://www.westsidefuturefund.org/wp-content/uploads/2016/09/ADTF-Press-Conference-Group-Photo-4.12.17.jpg"]
   [img src:"https://www.westsidefuturefund.org/wp-content/uploads/2016/09/ADTF-Press-Conference-Group-Photo-4.12.17.jpg"/]
 [/a]
 [div className:'parametric-caption']
@@ -85,7 +85,7 @@ The Georgia Tech researchers found, and Westside Future Fund confirms, that 92-p
 //   src:"static/images/map-placeholder-1.png"
 //   fullWidth:true style:`{width: '100vw'}`/]
 
-[Map geoJSON:apartmentsGeoJSON initialViewport:`{latitude: 33.7490, longitude: -84.3880, zoom: 8}` /]
+[Map geoJSON:AshviewHeightsGeoJSON initialViewport:`{latitude: 33.7490, longitude: -84.3880, zoom: 8}` /]
 
 [br/]
 
@@ -149,8 +149,7 @@ Although his research began in Roswell, Markley expanded his scope to other near
 //   src:"static/images/map-placeholder-1.png"
 //   fullWidth:true style:`{width: '100vw'}`/]
 
-[Map geoJSON:AshviewHeightsGeoJSON initialViewport:`{latitude: 33.7490, longitude: -84.3880, zoom: 8}` /]
-
+[Map geoJSON:apartmentsGeoJSON initialViewport:`{latitude: 33.7490, longitude: -84.3880, zoom: 8}` /]
 
 [br/]
 
