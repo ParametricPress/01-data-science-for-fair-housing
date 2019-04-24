@@ -2,6 +2,8 @@
 
 [Nav fullWidth:true /]
 
+[var name:"parametricSlug" value:"housing-data-science" /]
+
 [data name:"apartmentsGeoJSON" source:"apts.json" /]
 [data name:"atlantaHousesGeoJSON" source:"atlanta-houses.json" /]
 // [data name:"atlantaHousesGeoJSON" source:"atlanta-houses-points.json" /]
@@ -21,6 +23,8 @@
   archive:""
   source:""
 /]
+
+
 
 On a spring day in 2017 in the front yard of a small, cornflower-blue house on Atlanta's historic Westside, Mayor Kasim Reed announced the launch of a new city-backed program. Its purpose: to stem the tide of rising property taxes and keep residents of some of the city's most impoverished neighborhoods in their homes.
 
@@ -69,12 +73,18 @@ The Georgia Tech researchers found, and Westside Future Fund confirms, that 92-p
 
 [div fullWidth:true ]
   [br/]
-  [Map geoJSON:atlantaHousesGeoJSON initialViewport:`{latitude: 33.7490, longitude: -84.3880, zoom: 12}` /]
+  [var name:"mapZoom" value:false /]
+  [Map zoomEnabled:mapZoom geoJSON:atlantaHousesGeoJSON initialViewport:`{latitude: 33.7490, longitude: -84.3880, zoom: 12}` /]
 [/div]
 
-[div className:'parametric-caption']Data souce: Data Science for Social Good, Georgia Institute of Technology[/div]
+[div className:'parametric-caption']Click map to [display value:`mapZoom ? 'disable' : 'enable'` /] zooming.[br/] [b]Souce:[/b] Data Science for Social Good, Georgia Institute of Technology.[/div]
+
+[Aside]
+  [Recirc slug:parametricSlug /]
+[/Aside]
 
 WALT representatives presented the findings to city planners, who, Meng says, "stuck to their guns." Meng's research led her to believe that the tax fund money would be better spent if committed to programs dedicated to more vulnerable residents, like renters. To date, Westside Future Fund has enrolled 92 out of 400 eligible homeowners in the Anti-Displacement Tax Fund.
+
 
 "If this is really about anti-displacement, can we take the money you've committed and put it somewhere else, where it's going to make more of an impact?" Residents near the BeltLine's Eastside expansion [a href:"https://atlanta.curbed.com/2017/7/19/15995122/beltline-affordable-housing-lack-study"]have seen rents climb[/a] by at least 59-percent since 2005.
 
@@ -125,10 +135,15 @@ Although his research began in Roswell, Markley expanded his scope to other near
 
 [div fullWidth:true ]
   [br/]
-  [Map geoJSON:apartmentsGeoJSON initialViewport:`{latitude: 33.9490, longitude: -84.3880, zoom: 10}` /]
+  [var name:"mapZoom2" value:false /]
+  [Map zoomEnabled:mapZoom2 geoJSON:apartmentsGeoJSON initialViewport:`{latitude: 33.9490, longitude: -84.3880, zoom: 10}` /]
 [/div]
 
-[caption]Data source: Scott Markley[/caption]
+[caption]Click map to [display value:`mapZoom2 ? 'disable' : 'enable' ` /] zooming.[br/] [b]Source:[/b] Scott Markley.[/caption]
+
+[Aside]
+  [Newsletter /]
+[/Aside]
 
 "The residents and their desires and their interests were almost entirely disregarded and the city more or less forced through the issue," Markley said.
 
@@ -166,7 +181,7 @@ Georgia Tech's Meng said another solution for Atlanta is a well-funded public ho
 Edited by Fred Hohman.
 [/AuthorBio]
 
-[NextArticle fullWidth:true /]
+[NextArticle slug:parametricSlug fullWidth:true /]
 
 [Footer fullWidth:true /]
 
