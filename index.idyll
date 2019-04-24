@@ -3,7 +3,7 @@
 [Nav fullWidth:true /]
 
 [data name:"apartmentsGeoJSON" source:"apts.json" /]
-[data name:"AshviewHeightsGeoJSON" source:"AshviewHeights.json" /]
+[data name:"atlantaHousesGeoJSON" source:"atlanta-houses.json" /]
 
 [Header
   title:`["Housing", "Equity"]`
@@ -65,31 +65,12 @@ They created an interactive online tool designed to show residents if they quali
 
 The Georgia Tech researchers found, and Westside Future Fund confirms, that 92-percent of residents who live in the 2.2 square mile English Avenue, Vine City, Atlanta University Center, and Ashview Heights neighborhoods are renters, disqualifying them from the fund. They also found that if the fund included the adjacent Washington Park neighborhood, which has been similarly affected by a rise in home values, but has a larger percentage of owner-occupants, eligibility for the program would significantly increase.
 
-// TODO - map
-// [Map info / Courtesy: Data Science for Social Good, Georgia Institute of Technology]
-
 [div fullWidth:true ]
-
-[br/]
-
-// [ReactMapGL
-//   width:'100%'
-//   height:800
-//   latitude:33.7490
-//   longitude:-84.3880
-//   zoom:14
-//   mapboxApiAccessToken:"pk.eyJ1IjoiZnJlZGhvaG1hbiIsImEiOiJjanN5dTh3eTkxNndxNGFvZHZsOTQwaWp1In0.wu_JzZZwU4mNSdHVb8HOqw"
-//  /]
-
-// [img
-//   src:"static/images/map-placeholder-1.png"
-//   fullWidth:true style:`{width: '100vw'}`/]
-
-[Map geoJSON:AshviewHeightsGeoJSON initialViewport:`{latitude: 33.7490, longitude: -84.3880, zoom: 8}` /]
-
-[br/]
-
+  [br/]
+  [Map geoJSON:atlantaHousesGeoJSON initialViewport:`{latitude: 33.7490, longitude: -84.3880, zoom: 12}` /]
 [/div]
+
+[div className:'parametric-caption']Data souce: Data Science for Social Good, Georgia Institute of Technology[/div]
 
 WALT representatives presented the findings to city planners, who, Meng says, "stuck to their guns." Meng's research led her to believe that the tax fund money would be better spent if committed to programs dedicated to more vulnerable residents, like renters. To date, Westside Future Fund has enrolled 92 out of 400 eligible homeowners in the Anti-Displacement Tax Fund.
 
@@ -141,19 +122,11 @@ In the years since, Hispanic-owned businesses have also suffered. Markley recent
 Although his research began in Roswell, Markley expanded his scope to other nearby cities — Marietta, Brookhaven, Sandy Springs, and Smyrna — and discovered a similar pattern of redevelopment projects forcing thousands of mostly black and Hispanic renters from their homes. These cities have razed or proposed razing 21 apartment complexes since 2010, displacing more than nine-thousand residents. Census data shows that although Hispanic renters are one third of the area's total renter population, they make up nearly 60-percent of people displaced through demolition.
 
 [div fullWidth:true ]
-[span className:"comment"]Comment: Map of apartment demolitions[/span]
-
-[br/]
-
-// [img
-//   src:"static/images/map-placeholder-1.png"
-//   fullWidth:true style:`{width: '100vw'}`/]
-
-[Map geoJSON:apartmentsGeoJSON initialViewport:`{latitude: 33.7490, longitude: -84.3880, zoom: 8}` /]
-
-[br/]
-
+  [br/]
+  [Map geoJSON:apartmentsGeoJSON initialViewport:`{latitude: 33.9490, longitude: -84.3880, zoom: 10}` /]
 [/div]
+
+[caption]Data source: Scott Markley[/caption]
 
 "The residents and their desires and their interests were almost entirely disregarded and the city more or less forced through the issue," Markley said.
 
@@ -172,30 +145,6 @@ Grasping the full impact of displacement on families is difficult. Where do they
 Aside from helping Westside residents to maintain their homes, Westside Future Fund is also currently working to provide more affordable housing for renters. As owners cash out their increasingly valuable properties, the non-profit is buying land through philanthropic donations and preserving it for affordable housing units.
 
 Last year they purchased two apartment complexes, Villas at the Dome and 603 Brawley, which now house around 60 families. By 2023, Westside Future Fund's goal is to create a mixed-income community including 800 affordable housing units for residents earning around $26-thousand a year or less, although they acknowledge that to help the most residents a lower target income is optimal.
-
-// [br/]
-
-// [var name:"amiData" value:`[
-//   {x: 30, y: 15750},
-//   {x: 50, y: 26200},
-//   {x: 60, y: 31440},
-//   {x: 80, y: 41900},
-//   {x: 100, y: 52400},
-//   {x: 115, y: 60200},
-//   {x: 120, y: 62850}
-// ]` /]
-
-// [Chart type:"scatter" data:amiData domain:`[30, 120]` range:`[0, 70000]` theme:"material" /]
-
-// [div className:'parametric-caption']
-// [span className:"comment"]Comment: likely remove this[/span]
-
-// Data source: [link text:"Invest Atlanta" url:"https://www.investatlanta.com/assets/2018_all_limits-rents_chart_april_DN3rwL1.pdf"/].
-// [/div]
-
-
-// [br/]
-
 
 "People who've been in this community for a long time that preserve its historical character and who have also been suffering through a lot—just when the tide is rising you want those ships to be able to rise, too," said John Ahmann, president & CEO, Westside Future Fund.
 

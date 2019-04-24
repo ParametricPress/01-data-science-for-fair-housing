@@ -43,7 +43,7 @@ class App extends Component {
   _resize() {
     this._onChangeViewport({
       width: window.innerWidth,
-      height: window.innerHeight / 2
+      height: window.innerHeight * (2/3)
     });
   }
 
@@ -64,18 +64,19 @@ class App extends Component {
   getLayers() {
     const points = new GeoJsonLayer({
       id: 'geo-json',
-      strokeWidth: 1,
+      getLineColor: d => [255, 229, 51],
+      getLineWidth: 14,
       opacity: 1,
-      filled: true,
+      stroked: true,
+      filled: false,
       data: this.props.geoJSON,
       pickable: false,
-      // color: ,
       color: d => [255, 229, 51],
       getFillColor: d => [255, 229, 51],
       // radiusScale: 10000,
       getRadius: 5,
       radiusMinPixels: 5,
-      pointRadiusMinPixels: 3
+      pointRadiusMinPixels: 5
       // onHover: ({object}) => alert(`${object.venue}`)
     });
 
