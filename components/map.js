@@ -106,9 +106,10 @@ class App extends Component {
         <MapGL
           {...viewport}
           // {...tweenedViewport}
+          onClick={() => this.props.updateProps({ zoomEnabled: !this.props.zoomEnabled })}
           mapStyle='mapbox://styles/mathisonian/cjurw8owq15tb1fomkfgdvycn'
-          // dragRotate={false}
-          // scrollZoom={false}
+          dragRotate={this.props.zoomEnabled}
+          scrollZoom={this.props.zoomEnabled}
           onViewportChange={this._onChangeViewport.bind(this)}
           mapboxApiAccessToken={MAPBOX_ACCESS_TOKEN}
         >
