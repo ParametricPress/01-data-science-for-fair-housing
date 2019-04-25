@@ -64,7 +64,7 @@ class App extends Component {
   getLayers() {
     const points = new GeoJsonLayer({
       id: 'geo-json',
-      getLineColor: d => [72, 1, 255],
+      getLineColor: d => [255, 229, 51],
       getLineWidth: 14,
       opacity: 1,
       stroked: true,
