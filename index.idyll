@@ -49,7 +49,7 @@ Upon its launch, Westside Future Fund began publicizing details of the program i
 [/a]
 [div className:'parametric-caption']
   Vine City resident Pastor Dexter Johnson; WFF Executive Director John Ahmann; Atlanta City Planning Commissioner Tim Keane; Atlanta City Council member Michael Bond; former Atlanta Mayor Kasim Reed; Atlanta City Council member Ivory Young; and then-City Council member and current Atlanta Mayor Keisha Lance Bottoms at the 2017 announcement of the Fund.
-  [br /]
+  [br /][br /]
   Photo: [link text:"The Westside Future Fund" url:"https://www.westsidefuturefund.org/wp-content/uploads/2016/09/ADTF-Press-Conference-Group-Photo-4.12.17_600px_v2.jpg" /].
 [/div]
 
@@ -77,7 +77,7 @@ The Georgia Tech researchers found, and Westside Future Fund confirms, that 92-p
   [Map zoomEnabled:mapZoom geoJSON:atlantaHousesGeoJSON initialViewport:`{latitude: 33.7490, longitude: -84.3880, zoom: 12}` /]
 [/div]
 
-[div className:'parametric-caption']Click map to [display value:`mapZoom ? 'disable' : 'enable'` /] zooming.[br/] [b]Souce:[/b] Data Science for Social Good, Georgia Institute of Technology.[/div]
+[div className:'parametric-caption'][desktop]Click map to [display value:`mapZoom ? 'disable' : 'enable'` /] zooming.[br/][/desktop] [b]Souce:[/b] Data Science for Social Good, Georgia Institute of Technology.[/div]
 
 [Aside]
   [Recirc slug:parametricSlug /]
@@ -139,7 +139,7 @@ Although his research began in Roswell, Markley expanded his scope to other near
   [Map zoomEnabled:mapZoom2 geoJSON:apartmentsGeoJSON initialViewport:`{latitude: 33.9490, longitude: -84.3880, zoom: 10}` /]
 [/div]
 
-[caption]Click map to [display value:`mapZoom2 ? 'disable' : 'enable' ` /] zooming.[br/] [b]Source:[/b] Scott Markley.[/caption]
+[caption][desktop]Click map to [display value:`mapZoom2 ? 'disable' : 'enable' ` /] zooming.[br/][/desktop] [b]Source:[/b] Scott Markley.[/caption]
 
 [Aside]
   [Newsletter /]
