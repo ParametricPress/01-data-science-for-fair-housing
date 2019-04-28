@@ -33,9 +33,10 @@ On a spring day in 2017, in the front yard of a small, cornflower-blue house on 
 Modeled after a similar program in Charleston, South Carolina, Atlanta non-profit [a href:"https://www.westsidefuturefund.org/"]Westside Future Fund[/a] established the Anti-Displacement Tax Fund program in response to a flurry of activity in the area. More people were moving from suburbs back into the city, the new Mercedes-Benz Stadium would soon welcome sports fans to Super Bowl LIII, and the city had recently completed a Westside expansion of the [a href:"https://beltline.org/about/the-atlanta-beltline-project/atlanta-beltline-overview/"]Atlanta BeltLine[/a], a project that turned an unused rail corridor into a multi-use trail with bicycle and pedestrian paths, restaurants, public art and greenspace.
 
 [Aside]
-  [span className:"pull-number"]$150 → $1,800[/span]
+  [span className:"pull-number"]$0 → $1,800[/span]
   [span className:"pull-number-text"]
-    The potential yearly increase in property taxes that resident's could see.
+    The potential yearly increase in property taxes that resident's could see during 2018 tax cycle.
+    The average homeowner paid around $150.
   [/span]
   [br/][br/]
 [/Aside]
@@ -77,11 +78,18 @@ The Georgia Tech researchers found that 92% of residents who live in the 2.2 squ
 
 [div fullWidth:true ]
   [br/]
-  [var name:"mapZoom" value:false /]
-  [Map zoomEnabled:mapZoom geoJSON:atlantaHousesGeoJSON initialViewport:`{latitude: 33.7490, longitude: -84.3880, zoom: 12}` /]
+  [var name:"mapZoomHomes" value:false /]
+  [Map map:"homes" zoomEnabled:mapZoomHomes geoJSON:atlantaHousesGeoJSON initialViewport:`{latitude: 33.7490, longitude: -84.3880, zoom: 12}` /]
 [/div]
 
-[div className:'parametric-caption'][desktop]Click map to [display value:`mapZoom ? 'disable' : 'enable'` /] zooming.[br/][/desktop] **Souce:** Data Science for Social Good, Georgia Institute of Technology.[/div]
+[div className:'parametric-caption']
+  [desktop]
+    Click map to [display value:`mapZoomHomes ? 'disable' : 'enable'` /] zooming.
+    [br/]
+  [/desktop]
+  [br/]
+  **Souce:** [a href:"https://ds4sg.gatech.edu/"]Data Science for Social Good, Georgia Institute of Technology[/a].
+[/div]
 
 [Aside]
   [Recirc slug:parametricSlug /]
@@ -112,7 +120,7 @@ A similar "rail-to-trail" project, Minneapolis’ Midtown Greenway, could provid
 [/a]
 [div className:'parametric-caption']
   Beltline expansion map.
-  [br /]
+  [br /][br /]
   **Source**: [link text:"Atlanta Journal-Constituion" url:"https://www.ajc.com/news/local/atlanta-buys-unused-railroad-for-million-part-beltline-expansion/hPiqj7EWkJSTdG02CcHSvL/"/].
 [/div]
 
@@ -140,11 +148,18 @@ Although his research began in Roswell, Markley expanded his scope to other near
 
 [div fullWidth:true ]
   [br/]
-  [var name:"mapZoom2" value:false /]
-  [Map zoomEnabled:mapZoom2 geoJSON:apartmentsGeoJSON initialViewport:`{latitude: 33.9490, longitude: -84.3880, zoom: 10}` /]
+  [var name:"mapZoomApts" value:false /]
+  [Map map:"apts" zoomEnabled:mapZoomApts geoJSON:apartmentsGeoJSON initialViewport:`{latitude: 33.9290, longitude: -84.3780, zoom: 11}` /]
 [/div]
 
-[caption][desktop]Click map to [display value:`mapZoom2 ? 'disable' : 'enable' ` /] zooming.[br/][/desktop] [b]Source:[/b] Scott Markley.[/caption]
+[div className:'parametric-caption']
+  [desktop]
+    Click map to [display value:`mapZoomApts ? 'disable' : 'enable' ` /] zooming.
+    [br/]
+  [/desktop]
+  [br/]
+  **Source**: Scott Markley.
+[/div]
 
 [Aside]
   [Newsletter /]

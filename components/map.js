@@ -1,7 +1,7 @@
 /// app.js
 import React, { Component } from 'react';
 import MapGL, { FlyToInterpolator } from 'react-map-gl';
-import DeckGL, { GeoJsonLayer } from 'deck.gl';
+import DeckGL, { GeoJsonLayer, TextLayer } from 'deck.gl';
 
 
 // Set your mapbox access token here
@@ -62,7 +62,8 @@ class App extends Component {
   }
 
   getLayers() {
-    const points = new GeoJsonLayer({
+
+    const pointsHomes = new GeoJsonLayer({
       id: 'geo-json',
       getLineColor: d => [255, 229, 51],
       getLineWidth: 14,
@@ -80,7 +81,50 @@ class App extends Component {
       // onHover: ({object}) => alert(`${object.venue}`)
     });
 
-    return [points];
+    const pointsApts = new GeoJsonLayer({
+      id: 'geo-json',
+      getLineWidth: 14,
+      opacity: 1,
+      stroked: true,
+      filled: false,
+      data: this.props.geoJSON,
+      pickable: false,
+      color: d => [255, 229, 51],
+      getFillColor: d => [255, 229, 51],
+      // radiusScale: 10000,
+      getRadius: 5,
+      radiusMinPixels: 5,
+      pointRadiusMinPixels: 5
+      // onHover: ({object}) => alert(`${object.venue}`)
+    });
+
+    
+    const labels = new TextLayer({
+      id: 'text-layer',
+      data: this.props.geoJSON.features,
+      pickable: true,
+      getPosition: d => d.geometry.coordinates,
+      getText: d => d.properties['apt_name'],
+      getSize: 36,
+      getAngle: 0,
+      getTextAnchor: 'start',
+      getAlignmentBaseline: 'center',
+      getColor: d => [255, 255, 255],
+      getPixelOffset: [40, 0]
+      // onHover: ({ object, x, y }) => {
+      //   const tooltip = `${object.name}\n${object.address}`;
+      //   /* Update tooltip
+      //      http://deck.gl/#/documentation/developer-guide/adding-interactivity?section=example-display-a-tooltip-for-hovered-object
+      //   */
+      // }
+    });
+
+    if (this.props.map == 'homes') {
+      return [pointsHomes]; 
+    }
+    else if (this.props.map == 'apts') {
+      return [pointsApts, labels]; 
+    }
   }
 
   _initialize(gl) {
