@@ -11,7 +11,7 @@
         <g transform="matrix(1,0,0,1,24,62)">
             <text x="0px" y="0px" style="font-family:'Graphik-Medium', 'Graphik', sans-serif;font-weight:500;font-size:16px;fill:rgb(126,126,126);">Hispanic r<tspan x="76.528px " y="0px ">e</tspan>nters mak<tspan x="160.592px " y="0px ">e</tspan> up 33<tspan x="216.992px " y="0px ">%</tspan> of ar<tspan x="268.064px 277.424px 285.984px 289.408px " y="0px 0px 0px 0px ">ea&apos;s</tspan> r<tspan x="307.312px " y="0px ">e</tspan>nter population,</text>
             <text x="0px" y="18px" style="font-family:'Graphik-Medium', 'Graphik', sans-serif;font-weight:500;font-size:16px;fill:rgb(126,126,126);">but the<tspan x="54.192px " y="18px ">y</tspan> mak<tspan x="98.656px " y="18px ">e</tspan> up nearly</text>
-            <text x="186.672px" y="18px" style="font-family:'Graphik-Medium', 'Graphik', sans-serif;font-weight:500;font-size:16px;fill:rgb(255,229,51);">60<tspan x="207.984px " y="18px ">%</tspan></text>
+            <text x="186.672px" y="18px" style="font-family:'Graphik-Medium', 'Graphik', sans-serif;font-weight:500;font-size:16px;fill:rgb(93,163,145);">60<tspan x="207.984px " y="18px ">%</tspan></text>
             <text x="224.608px" y="18px" style="font-family:'Graphik-Medium', 'Graphik', sans-serif;font-weight:500;font-size:16px;fill:rgb(126,126,126);">of people displaced thr<tspan x="400.672px " y="18px ">o</tspan>ugh demolition.</text>
         </g>
         <g id="_-Contributions-to-ImageNet-" serif:id="(Contributions to ImageNet)" transform="matrix(1,0,0,1,84.3702,221.04)">
@@ -46,9 +46,9 @@
             <path d="M115.364,622.988L187.831,562.267L260.299,562.267L332.766,546.884L405.234,529.053L477.701,495.242L550.169,452.134L622.636,448.872L622.636,436.859L550.169,440.555L477.701,489.425L405.234,524.922L332.766,543.622L260.299,559.441L187.831,559.441L115.364,622.988Z" style="fill:none;stroke:rgb(34,34,34);stroke-width:4.07px;"/>
             <path d="M115.364,622.988L187.831,562.267L260.299,562.267L332.766,546.884L405.234,529.053L477.701,495.242L550.169,452.134L622.636,448.872L622.636,436.859L550.169,440.555L477.701,489.425L405.234,524.922L332.766,543.622L260.299,559.441L187.831,559.441L115.364,622.988Z" style="fill:rgb(102,102,102);fill-rule:nonzero;"/>
         </g>
-        <g id="PolyCollection_4" transform="matrix(0.821919,0,0,0.641132,-10.3805,66.3949)">
+        <g id="PolyCollection_4" transform="matrix(0.821919,0,0,0.641132,-10.3805,66.4808)">
             <path d="M115.364,621.792L115.364,622.988L187.831,559.441L260.299,559.441L332.766,543.622L405.234,524.922L477.701,489.425L550.169,440.555L622.636,436.859L622.636,145.109L550.169,165.439L477.701,321.996L405.234,395.6L332.766,479.966L260.299,526.444L187.831,526.444L115.364,621.792Z" style="fill:none;stroke:rgb(34,34,34);stroke-width:4.07px;"/>
-            <path d="M115.364,621.792L115.364,622.988L187.831,559.441L260.299,559.441L332.766,543.622L405.234,524.922L477.701,489.425L550.169,440.555L622.636,436.859L622.636,145.109L550.169,165.439L477.701,321.996L405.234,395.6L332.766,479.966L260.299,526.444L187.831,526.444L115.364,621.792Z" style="fill:rgb(255,229,51);fill-rule:nonzero;"/>
+            <path d="M115.364,621.792L115.364,622.988L187.831,559.441L260.299,559.441L332.766,543.622L405.234,524.922L477.701,489.425L550.169,440.555L622.636,436.859L622.636,145.109L550.169,165.439L477.701,321.996L405.234,395.6L332.766,479.966L260.299,526.444L187.831,526.444L115.364,621.792Z" style="fill:rgb(93,163,145);fill-rule:nonzero;"/>
         </g>
         <g id="PolyCollection_5" transform="matrix(0.821919,0,0,0.641132,-10.3805,66.3949)">
             <path d="M115.364,621.357L115.364,621.792L187.831,526.444L260.299,526.444L332.766,479.966L405.234,395.6L477.701,321.996L550.169,165.439L622.636,145.109L622.636,135.813L550.169,156.144L477.701,317.321L405.234,392.827L332.766,478.934L260.299,526.009L187.831,526.009L115.364,621.357Z" style="fill:none;stroke:rgb(34,34,34);stroke-width:4.07px;"/>
@@ -149,7 +149,7 @@
         </g>
     </g>
     <g id="_-Contributions-to-ImageNet-1" serif:id="(Contributions to ImageNet)" transform="matrix(1,0,0,1,509.984,266.352)">
-        <text x="0px" y="0px" style="font-family:'Graphik-Medium', 'Graphik', sans-serif;font-weight:500;font-size:16px;fill:rgb(255,229,51);">Hispanic</text>
+        <text x="0px" y="0px" style="font-family:'Graphik-Medium', 'Graphik', sans-serif;font-weight:500;font-size:16px;fill:rgb(93,163,145);">Hispanic</text>
     </g>
     <g id="_-Contributions-to-ImageNet-2" serif:id="(Contributions to ImageNet)" transform="matrix(1,0,0,1,509.984,355.29)">
         <text x="0px" y="0px" style="font-family:'Graphik-Regular', 'Graphik', sans-serif;font-size:16px;fill:rgb(126,126,126);">Asian</text>
