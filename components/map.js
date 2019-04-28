@@ -70,7 +70,8 @@ class App extends Component {
     );
   }
 
-  getLayers() {
+  getLayers(mapID) {
+    console.log(mapID)
 
     const pointsHomes = new GeoJsonLayer({
       id: 'geo-json',
@@ -84,9 +85,9 @@ class App extends Component {
       color: d => [255, 229, 51],
       getFillColor: d => [255, 229, 51],
       // radiusScale: 10000,
-      getRadius: 4,
-      radiusMinPixels: 4,
-      pointRadiusMinPixels: 4,
+      getRadius: 2,
+      radiusMinPixels: 2,
+      pointRadiusMinPixels: 2,
       onHover: info => this.setState({
         hoveredObject: info.object,
         pointerX: info.x,
@@ -116,7 +117,6 @@ class App extends Component {
       pointRadiusMinPixels: 5
       // onHover: ({object}) => alert(`${object.venue}`)
     });
-
     
     const labels = new TextLayer({
       id: 'text-layer',
@@ -132,10 +132,10 @@ class App extends Component {
       getPixelOffset: [40, 0],
     });
 
-    if (this.props.map == 'homes') {
+    if (mapID === 'homes') {
       return [pointsHomes]; 
     }
-    else if (this.props.map == 'apts') {
+    else if (mapID === 'apts') {
       return [pointsApts, labels]; 
     }
   }
@@ -172,9 +172,9 @@ class App extends Component {
         >
           <DeckGL
             {...viewport} /*{...tweenedViewport}*/
-            layers={this.getLayers()}
+            layers={this.getLayers(this.props.map)}
             onWebGLInitialized={this._initialize.bind(this)}
-            {/* {this._renderTooltip()} */}
+            /*{this._renderTooltip()}*/
           />
         </MapGL>
       </div>
