@@ -6,8 +6,8 @@
 
 [data name:"apartmentsGeoJSON" source:"apts.json" /]
 // [data name:"atlantaHousesGeoJSON" source:"atlanta-houses.json" /]
-// [data name:"atlantaHousesGeoJSON" source:"atlanta-houses-points.json" /]
-[data name:"atlantaHousesGeoJSON" source:"atlanta-houses-outlines.json" /]
+[data name:"atlantaHousesGeoJSON" source:"atlanta-houses-points.json" /]
+// [data name:"atlantaHousesGeoJSON" source:"atlanta-houses-outlines.json" /]
 
 [Header
   title:`["Housing", "Equity"]`
@@ -79,7 +79,7 @@ The Georgia Tech researchers found that 92% of residents who live in the 2.2 squ
 [div fullWidth:true ]
   [br/]
   [var name:"mapZoomHomes" value:false /]
-  [Map map:"homes" zoomEnabled:mapZoomHomes geoJSON:atlantaHousesGeoJSON initialViewport:`{latitude: 33.7490, longitude: -84.3880, zoom: 12}` /]
+  [Map map:"homes" zoomEnabled:mapZoomHomes geoJSON:atlantaHousesGeoJSON initialViewport:`{latitude: 33.7490, longitude: -84.3880, zoom: 13}` /]
 [/div]
 
 [div className:'parametric-caption']
