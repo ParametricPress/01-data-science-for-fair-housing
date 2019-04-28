@@ -61,6 +61,15 @@ class App extends Component {
     this._resize();
   }
 
+  _renderTooltip() {
+    const { hoveredObject, pointerX, pointerY } = this.state || {};
+    return hoveredObject && (
+      <div style={{ position: 'absolute', zIndex: 1, pointerEvents: 'none', left: pointerX, top: pointerY }}>
+        {hoveredObject.message}
+      </div>
+    );
+  }
+
   getLayers() {
 
     const pointsHomes = new GeoJsonLayer({
@@ -75,10 +84,20 @@ class App extends Component {
       color: d => [255, 229, 51],
       getFillColor: d => [255, 229, 51],
       // radiusScale: 10000,
-      getRadius: 5,
-      radiusMinPixels: 5,
-      pointRadiusMinPixels: 5
-      // onHover: ({object}) => alert(`${object.venue}`)
+      getRadius: 4,
+      radiusMinPixels: 4,
+      pointRadiusMinPixels: 4,
+      onHover: info => this.setState({
+        hoveredObject: info.object,
+        pointerX: info.x,
+        pointerY: info.y
+      })
+      // onHover: ({ object, x, y }) => {
+      //   const tooltip = `${object.name}\n${x}`;
+      //   /* Update tooltip
+      //      http://deck.gl/#/documentation/developer-guide/adding-interactivity?section=example-display-a-tooltip-for-hovered-object
+      //   */
+      // }
     });
 
     const pointsApts = new GeoJsonLayer({
@@ -110,13 +129,7 @@ class App extends Component {
       getTextAnchor: 'start',
       getAlignmentBaseline: 'center',
       getColor: d => [255, 255, 255],
-      getPixelOffset: [40, 0]
-      // onHover: ({ object, x, y }) => {
-      //   const tooltip = `${object.name}\n${object.address}`;
-      //   /* Update tooltip
-      //      http://deck.gl/#/documentation/developer-guide/adding-interactivity?section=example-display-a-tooltip-for-hovered-object
-      //   */
-      // }
+      getPixelOffset: [40, 0],
     });
 
     if (this.props.map == 'homes') {
@@ -161,6 +174,7 @@ class App extends Component {
             {...viewport} /*{...tweenedViewport}*/
             layers={this.getLayers()}
             onWebGLInitialized={this._initialize.bind(this)}
+            {/* {this._renderTooltip()} */}
           />
         </MapGL>
       </div>
