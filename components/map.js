@@ -71,73 +71,99 @@ class App extends Component {
   }
 
   getLayers(mapID) {
-    console.log(mapID)
-
-    const pointsHomes = new GeoJsonLayer({
-      id: 'geo-json',
-      getLineColor: d => [255, 229, 51],
-      getLineWidth: 14,
-      opacity: 1,
-      stroked: true,
-      filled: false,
-      data: this.props.geoJSON,
-      pickable: false,
-      color: d => [255, 229, 51],
-      getFillColor: d => [255, 229, 51],
-      // radiusScale: 10000,
-      getRadius: 2,
-      radiusMinPixels: 2,
-      pointRadiusMinPixels: 2,
-      onHover: info => this.setState({
-        hoveredObject: info.object,
-        pointerX: info.x,
-        pointerY: info.y
-      })
-      // onHover: ({ object, x, y }) => {
-      //   const tooltip = `${object.name}\n${x}`;
-      //   /* Update tooltip
-      //      http://deck.gl/#/documentation/developer-guide/adding-interactivity?section=example-display-a-tooltip-for-hovered-object
-      //   */
-      // }
-    });
-
-    const pointsApts = new GeoJsonLayer({
-      id: 'geo-json',
-      getLineWidth: 14,
-      opacity: 1,
-      stroked: true,
-      filled: false,
-      data: this.props.geoJSON,
-      pickable: false,
-      color: d => [255, 229, 51],
-      getFillColor: d => [255, 229, 51],
-      // radiusScale: 10000,
-      getRadius: 5,
-      radiusMinPixels: 5,
-      pointRadiusMinPixels: 5
-      // onHover: ({object}) => alert(`${object.venue}`)
-    });
-    
-    const labels = new TextLayer({
-      id: 'text-layer',
-      data: this.props.geoJSON.features,
-      pickable: true,
-      getPosition: d => d.geometry.coordinates,
-      getText: d => d.properties['apt_name'],
-      getSize: 36,
-      getAngle: 0,
-      getTextAnchor: 'start',
-      getAlignmentBaseline: 'center',
-      getColor: d => [255, 255, 255],
-      getPixelOffset: [40, 0],
-    });
 
     if (mapID === 'homes') {
+      const pointsHomes = new GeoJsonLayer({
+        id: 'geo-json',
+        getLineColor: d => [255, 229, 51],
+        getLineWidth: 14,
+        opacity: 1,
+        stroked: true,
+        filled: false,
+        data: this.props.geoJSON,
+        pickable: false,
+        color: d => [255, 229, 51],
+        getFillColor: d => {
+          if (d.properties.eligible === '1') {
+            return [93, 163, 145];
+          } else {
+            return [255, 229, 51];
+          }
+        },
+        // radiusScale: 10000,
+        getRadius: 2,
+        radiusMinPixels: 2,
+        pointRadiusMinPixels: 2,
+        onHover: info => this.setState({
+          hoveredObject: info.object,
+          pointerX: info.x,
+          pointerY: info.y
+        })
+        // onHover: ({ object, x, y }) => {
+        //   const tooltip = `${object.name}\n${x}`;
+        //   /* Update tooltip
+        //      http://deck.gl/#/documentation/developer-guide/adding-interactivity?section=example-display-a-tooltip-for-hovered-object
+        //   */
+        // }
+      });
+
       return [pointsHomes]; 
     }
-    else if (mapID === 'apts') {
-      return [pointsApts, labels]; 
+
+
+    if (mapID === 'beltline') {
+      const beltline = new GeoJsonLayer({
+        id: 'geo-json',
+        getLineColor: d => [255, 229, 51],
+        getLineWidth: 9,
+        opacity: 0.5,
+        stroked: true,
+        filled: true,
+        data: this.props.geoJSON,
+        pickable: false,
+        color: d => [255, 229, 51],
+        getFillColor: d => [255, 229, 51],
+      });
+
+      return [beltline];
     }
+
+    if (mapID === 'apts') {
+      const pointsApts = new GeoJsonLayer({
+        id: 'geo-json',
+        getLineWidth: 14,
+        opacity: 1,
+        stroked: true,
+        filled: false,
+        data: this.props.geoJSON,
+        pickable: false,
+        color: d => [255, 229, 51],
+        getFillColor: d => [255, 229, 51],
+        // radiusScale: 10000,
+        getRadius: 5,
+        radiusMinPixels: 5,
+        pointRadiusMinPixels: 5
+        // onHover: ({object}) => alert(`${object.venue}`)
+      });
+
+      const labels = new TextLayer({
+        id: 'text-layer',
+        data: this.props.geoJSON.features,
+        pickable: true,
+        getPosition: d => d.geometry.coordinates,
+        getText: d => d.properties['apt_name'],
+        getSize: 36,
+        getAngle: 0,
+        getTextAnchor: 'start',
+        getAlignmentBaseline: 'center',
+        getColor: d => [255, 255, 255],
+        getPixelOffset: [40, 0],
+      });
+
+      return [pointsApts, labels];
+    }
+
+    
   }
 
   _initialize(gl) {

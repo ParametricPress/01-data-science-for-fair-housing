@@ -4,10 +4,16 @@
 
 [var name:"parametricSlug" value:"housing-data-science" /]
 
-[data name:"apartmentsGeoJSON" source:"apts.json" /]
+// atlanta homes map
 // [data name:"atlantaHousesGeoJSON" source:"atlanta-houses.json" /]
 [data name:"atlantaHousesGeoJSON" source:"atlanta-houses-points.json" /]
 // [data name:"atlantaHousesGeoJSON" source:"atlanta-houses-outlines.json" /]
+
+// beltline map
+[data name:"beltlineGeoJSON" source:"beltline.json" /]
+
+// apts map
+[data name:"apartmentsGeoJSON" source:"apts.json" /]
 
 [Header
   title:`["Housing", "Equity"]`
@@ -82,14 +88,14 @@ The Georgia Tech researchers found that 92% of residents who live in the 2.2 squ
   [Map map:"homes" zoomEnabled:mapZoomHomes geoJSON:atlantaHousesGeoJSON initialViewport:`{latitude: 33.7490, longitude: -84.3880, zoom: 12}` /]
 [/div]
 
-[div className:'parametric-caption']
+[caption]
   [desktop]
     Click map to [display value:`mapZoomHomes ? 'disable' : 'enable'` /] zooming.
     [br/]
   [/desktop]
   [br/]
   **Souce:** [a href:"https://ds4sg.gatech.edu/"]Data Science for Social Good, Georgia Institute of Technology[/a].
-[/div]
+[/caption]
 
 [Aside]
   [Recirc slug:parametricSlug /]
@@ -115,14 +121,16 @@ There are concerns that [a href:"https://www.ajc.com/news/local-govt--politics/t
 
 A similar "rail-to-trail" project, Minneapolis’ Midtown Greenway, could provide a glimpse into Atlanta's future. In the project's first decade, property values in the area increased by 90%, [a href:"https://www.minnpost.com/metro/2018/11/election-leads-to-historic-shake-up-in-hennepin-county/"]according to a former county commissioner[/a].
 
-[a href:"static/svg/apts.svg"]
-  [img src:"https://www.ajc.com/rf/image_large/Pub/p10/AJC/2019/02/22/Images/beltlinepic.JPG"/]
-[/a]
-[div className:'parametric-caption']
-  Beltline expansion map.
-  [br /][br /]
-  **Source**: [link text:"Atlanta Journal-Constituion" url:"https://www.ajc.com/news/local/atlanta-buys-unused-railroad-for-million-part-beltline-expansion/hPiqj7EWkJSTdG02CcHSvL/"/].
+[div fullWidth:true ]
+  [br/]
+  [var name:"mapZoomBeltline" value:false /]
+  [Map map:"beltline" zoomEnabled:mapZoomBeltline geoJSON:beltlineGeoJSON initialViewport:`{latitude: 33.7690, longitude: -84.3880, zoom: 12}` /]
 [/div]
+[caption]
+  The Atlanta BeltLine, a multi-use "rail-to-trail" project, will encircle the heart of the city [a href:"https://beltline.org/about/the-atlanta-beltline-project/atlanta-beltline-overview/"]when eventually completed in 2030[/a].
+
+  **Souce:** [a href:"https://ds4sg.gatech.edu/"]Data Science for Social Good, Georgia Institute of Technology[/a].
+[/caption]
 
 Blunt said she's not against development on the Westside if it’s done the right way. "Change is good when it’s bettering quality of life, but people who have been there for a long time won’t get to experience that, because they can’t afford to live in that area anymore."
 
@@ -152,14 +160,14 @@ Although his research began in Roswell, Markley expanded his scope to other near
   [Map map:"apts" zoomEnabled:mapZoomApts geoJSON:apartmentsGeoJSON initialViewport:`{latitude: 33.9290, longitude: -84.3780, zoom: 11}` /]
 [/div]
 
-[div className:'parametric-caption']
+[caption]
   [desktop]
-    Click map to [display value:`mapZoomApts ? 'disable' : 'enable' ` /] zooming.
+    Click map to [display value:`mapZoomBeltline ? 'disable' : 'enable' ` /] zooming.
     [br/]
   [/desktop]
   [br/]
   **Source**: Scott Markley.
-[/div]
+[/caption]
 
 [Aside]
   [Newsletter /]
@@ -169,8 +177,13 @@ Although his research began in Roswell, Markley expanded his scope to other near
 
 Historically, Jim Crow laws and covenants between property owners enforced racially-segregated housing in the United States. In 1968, the Fair Housing Act made all housing discrimination unconstitutional, but, as Markley’s research shows, over the past two decades, cities like those in Atlanta’s northern suburbs have continued to covertly exclude racial minorities from living in white communities. They use coded language like "reduced property values," "overcrowding," and "increased crime" to oppose affordable housing construction. They’ve also added another strategy in an effort to preserve majority white populations: legislating forced evictions with redevelopment projects.
 
-[a href:"static/svg/apts.svg"][SVG src:"static/svg/apts.svg" /][/a]
-[caption][a href:"static/svg/apts.svg"]Click to dowload image.[/a][/caption]
+// [br/]
+[a href:"static/images/apts.png"]
+  [img src:"static/images/apts.png" /]
+[/a]
+[caption]
+  [a href:"static/images/apts.png"]Click to dowload image.[/a]
+[/caption]
 
 "It’s difficult for people moving out of a community in which they’ve settled. Away from the people they know, away from the area that’s considered home, especially if you have kids who are taken out of school during the school year, which can have a detrimental impact on their grades and social life."
 
