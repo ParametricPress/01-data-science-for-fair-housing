@@ -76,7 +76,7 @@ class App extends Component {
       const pointsHomes = new GeoJsonLayer({
         id: 'geo-json',
         getLineColor: d => [255, 229, 51],
-        getLineWidth: 14,
+        getLineWidth: 10,
         opacity: 1,
         stroked: true,
         filled: false,
@@ -84,8 +84,13 @@ class App extends Component {
         pickable: false,
         color: d => [255, 229, 51],
         getFillColor: d => {
+          
+          // "0" eligible
+          // "1" not eligible
           if (d.properties.eligible === '1') {
-            return [93, 163, 145];
+            // parmetric purple [72, 1, 255]
+            // parametric green [93, 163, 145]
+            return [255, 229, 51];
           } else {
             return [255, 229, 51];
           }
@@ -93,18 +98,7 @@ class App extends Component {
         // radiusScale: 10000,
         getRadius: 2,
         radiusMinPixels: 2,
-        pointRadiusMinPixels: 2,
-        onHover: info => this.setState({
-          hoveredObject: info.object,
-          pointerX: info.x,
-          pointerY: info.y
-        })
-        // onHover: ({ object, x, y }) => {
-        //   const tooltip = `${object.name}\n${x}`;
-        //   /* Update tooltip
-        //      http://deck.gl/#/documentation/developer-guide/adding-interactivity?section=example-display-a-tooltip-for-hovered-object
-        //   */
-        // }
+        pointRadiusMinPixels: 2
       });
 
       return [pointsHomes]; 
@@ -142,8 +136,19 @@ class App extends Component {
         // radiusScale: 10000,
         getRadius: 5,
         radiusMinPixels: 5,
-        pointRadiusMinPixels: 5
+        pointRadiusMinPixels: 5,
         // onHover: ({object}) => alert(`${object.venue}`)
+        onHover: info => this.setState({
+          hoveredObject: info.object,
+          pointerX: info.x,
+          pointerY: info.y
+        })
+        // onHover: ({ object, x, y }) => {
+        //   const tooltip = `${object.name}\n${x}`;
+        //   /* Update tooltip
+        //      http://deck.gl/#/documentation/developer-guide/adding-interactivity?section=example-display-a-tooltip-for-hovered-object
+        //   */
+        // }
       });
 
       const labels = new TextLayer({
