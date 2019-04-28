@@ -90,6 +90,7 @@ The Georgia Tech researchers found that 92% of residents who live in the 2.2 squ
 
 [caption]
   [desktop]
+    [span className:"caption-highlight" style:`{color: '#FFE533'}`]The Atlanta BeltLine[/span]
     Click map to [display value:`mapZoomHomes ? 'disable' : 'enable'` /] zooming.
     [br/]
   [/desktop]
@@ -127,7 +128,7 @@ A similar "rail-to-trail" project, Minneapolis’ Midtown Greenway, could provid
   [Map map:"beltline" zoomEnabled:mapZoomBeltline geoJSON:beltlineGeoJSON initialViewport:`{latitude: 33.7690, longitude: -84.3880, zoom: 12}` /]
 [/div]
 [caption]
-  The Atlanta BeltLine, a multi-use "rail-to-trail" project, will encircle the heart of the city [a href:"https://beltline.org/about/the-atlanta-beltline-project/atlanta-beltline-overview/"]when eventually completed in 2030[/a].
+  [span className:"caption-highlight" style:`{color: '#FFE533'}`]The Atlanta BeltLine[/span], a multi-use "rail-to-trail" project, will encircle the heart of the city when eventually [a href:"https://beltline.org/about/the-atlanta-beltline-project/atlanta-beltline-overview/"]completed in 2030[/a].
 
   **Souce:** [a href:"https://ds4sg.gatech.edu/"]Data Science for Social Good, Georgia Institute of Technology[/a].
 [/caption]
@@ -162,7 +163,10 @@ Although his research began in Roswell, Markley expanded his scope to other near
 
 [caption]
   [desktop]
+    Each dot represents an [span className:"caption-highlight" style:`{color: '#FFE533'}`]apartment complex[/span] that was razed between 2010 and 2017 in Atlanta's northern suburbs.
+    Hover over an apartment for details.
     Click map to [display value:`mapZoomBeltline ? 'disable' : 'enable' ` /] zooming.
+    
     [br/]
   [/desktop]
   [br/]
@@ -177,7 +181,7 @@ Although his research began in Roswell, Markley expanded his scope to other near
 
 Historically, Jim Crow laws and covenants between property owners enforced racially-segregated housing in the United States. In 1968, the Fair Housing Act made all housing discrimination unconstitutional, but, as Markley’s research shows, over the past two decades, cities like those in Atlanta’s northern suburbs have continued to covertly exclude racial minorities from living in white communities. They use coded language like "reduced property values," "overcrowding," and "increased crime" to oppose affordable housing construction. They’ve also added another strategy in an effort to preserve majority white populations: legislating forced evictions with redevelopment projects.
 
-// [br/]
+[br/]
 [a href:"static/images/apts.png"]
   [img src:"static/images/apts.png" /]
 [/a]

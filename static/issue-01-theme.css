@@ -1258,7 +1258,12 @@ a {
   margin-bottom: 2em;
   /* max-width: 600px; */
   font-size: 14px;
-  line-height: 1.25;
+  line-height: 1.5;
+}
+
+.parametric-caption a {
+  color: #24292e;
+  text-decoration: underline;  
 }
 
 .parametric-tooltip-trigger {
