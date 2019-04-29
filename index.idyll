@@ -2,7 +2,7 @@
 
 [Nav fullWidth:true /]
 
-[var name:"parametricSlug" value:"housing-data-science" /]
+[var name:"parametricSlug" value:"the-data-science-of-housing-equity" /]
 
 // atlanta homes map
 // [data name:"atlantaHousesGeoJSON" source:"atlanta-houses.json" /]
