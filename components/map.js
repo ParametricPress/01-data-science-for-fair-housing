@@ -76,7 +76,7 @@ class App extends Component {
       const pointsHomes = new GeoJsonLayer({
         id: 'geo-json',
         getLineColor: d => [255, 229, 51],
-        getLineWidth: 10,
+        getLineWidth: 6,
         opacity: 1,
         stroked: true,
         filled: false,
@@ -84,7 +84,7 @@ class App extends Component {
         pickable: false,
         color: d => [255, 229, 51],
         getFillColor: d => {
-          
+
           // "0" eligible
           // "1" not eligible
           if (d.properties.eligible === '1') {
@@ -101,7 +101,7 @@ class App extends Component {
         pointRadiusMinPixels: 2
       });
 
-      return [pointsHomes]; 
+      return [pointsHomes];
     }
 
 
@@ -130,7 +130,7 @@ class App extends Component {
         stroked: true,
         filled: false,
         data: this.props.geoJSON,
-        pickable: false,
+        pickable: true,
         color: d => [255, 229, 51],
         getFillColor: d => [255, 229, 51],
         // radiusScale: 10000,
@@ -138,11 +138,14 @@ class App extends Component {
         radiusMinPixels: 5,
         pointRadiusMinPixels: 5,
         // onHover: ({object}) => alert(`${object.venue}`)
-        onHover: info => this.setState({
-          hoveredObject: info.object,
-          pointerX: info.x,
-          pointerY: info.y
-        })
+        onHover: (info) => {
+          console.log('hovering!', info);
+          this.setState({
+            hoveredObject: info.object,
+            pointerX: info.x,
+            pointerY: info.y
+          })
+        }
         // onHover: ({ object, x, y }) => {
         //   const tooltip = `${object.name}\n${x}`;
         //   /* Update tooltip
@@ -163,12 +166,20 @@ class App extends Component {
         getAlignmentBaseline: 'center',
         getColor: d => [255, 255, 255],
         getPixelOffset: [40, 0],
+        onHover: (info) => {
+          console.log('hovering!', info);
+          this.setState({
+            hoveredObject: info.object,
+            pointerX: info.x,
+            pointerY: info.y
+          })
+        }
       });
 
       return [pointsApts, labels];
     }
 
-    
+
   }
 
   _initialize(gl) {
@@ -187,7 +198,7 @@ class App extends Component {
   }
 
   render() {
-    const { viewport, initialized, transitioning } = this.state;
+    const { viewport, initialized, transitioning, hoveredObject, pointerX, pointerY } = this.state;
 
     return (
       <div key={'map'} ref={this.handleRef.bind(this)} style={{width: '100%'}}>
@@ -195,7 +206,7 @@ class App extends Component {
           {...viewport}
           // {...tweenedViewport}
           onClick={() => this.props.updateProps({ zoomEnabled: !this.props.zoomEnabled })}
-          mapStyle='mapbox://styles/mathisonian/cjurw8owq15tb1fomkfgdvycn'
+          mapStyle={this.props.map === 'apts' ? 'mapbox://styles/mathisonian/cjv2tiyabes041fnuap89nfrt' : 'mapbox://styles/mathisonian/cjurw8owq15tb1fomkfgdvycn'}
           dragRotate={this.props.zoomEnabled}
           scrollZoom={this.props.zoomEnabled}
           onViewportChange={this._onChangeViewport.bind(this)}
@@ -208,6 +219,14 @@ class App extends Component {
             /*{this._renderTooltip()}*/
           />
         </MapGL>
+        {
+          hoveredObject ? <div className="parametric-map-tooltip" style={{position: 'fixed', top: pointerY + 15, left: pointerX + 15 }}>
+            <div><b>{hoveredObject.properties.apt_name}</b></div>
+            <div>Location: {hoveredObject.properties.city}</div>
+            <div>Est. Population: {hoveredObject.properties.est_pop10}</div>
+            <div>Year Demolised: {hoveredObject.properties.yr_dem}</div>
+          </div>: null
+        }
       </div>
     );
   }

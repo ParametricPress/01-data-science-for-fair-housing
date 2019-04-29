@@ -6,6 +6,17 @@
   border: 1px solid black;
 }
 
+
+.parametric-map-tooltip {
+  background: #fff;
+  border: solid 1px #222;
+  font-family: 'Graphik Web';
+  font-size: 14px;
+  line-height: 18px;
+  padding: 0.5em;
+  font-weight: 400;
+}
+
 @media all and (max-width: 1200px) {
   .parametric-metadata-container {
     position: static;
@@ -23,6 +34,7 @@
     line-height: 100px;
   }
 }
+
 
 @media all and (max-width: 1000px) {
   .idyll-root {
