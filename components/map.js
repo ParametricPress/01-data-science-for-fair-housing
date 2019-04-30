@@ -75,29 +75,34 @@ class App extends Component {
     if (mapID === 'homes') {
       const pointsHomes = new GeoJsonLayer({
         id: 'geo-json',
-        getLineColor: d => [255, 229, 51],
+        getLineColor: d => [255, 255, 255],
         getLineWidth: 6,
         opacity: 1,
         stroked: true,
         filled: false,
         data: this.props.geoJSON,
         pickable: false,
-        color: d => [255, 229, 51],
+        // color: d => [255, 229, 51],
         getFillColor: d => {
 
           // "0" eligible
           // "1" not eligible
           if (d.properties.eligible === '1') {
-            // parmetric purple [72, 1, 255]
+            // return parmetric purple
             // parametric green [93, 163, 145]
             return [255, 229, 51];
           } else {
-            return [255, 229, 51];
+            return [255, 255, 255];
           }
         },
-        // radiusScale: 10000,
-        getRadius: 2,
-        radiusMinPixels: 2,
+        // radiusScale: 10,
+        getRadius: d => {
+          if (d.properties.eligible === '1') {
+            return 8;
+          }
+          return 2;
+        },
+        // radiusMinPixels: 2,
         pointRadiusMinPixels: 2
       });
 

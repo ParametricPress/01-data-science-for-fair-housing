@@ -41,16 +41,28 @@ On a spring day in 2017, in the front yard of a small, cornflower-blue house on 
 
 Modeled after a similar program in Charleston, South Carolina, Atlanta non-profit [a href:"https://www.westsidefuturefund.org/"]Westside Future Fund[/a] established the Anti-Displacement Tax Fund program in response to a flurry of activity in the area. More people were moving from suburbs back into the city, the new Mercedes-Benz Stadium would soon welcome sports fans to Super Bowl LIII, and the city had recently completed a Westside expansion of the [a href:"https://beltline.org/about/the-atlanta-beltline-project/atlanta-beltline-overview/"]Atlanta BeltLine[/a], a project that turned an unused rail corridor into a multi-use trail with bicycle and pedestrian paths, restaurants, public art and greenspace.
 
-[Aside]
-  [span className:"pull-number"]$0 → $1,800[/span]
-  [span className:"pull-number-text"]
-    The potential yearly increase in property taxes that resident's could see during 2018 tax cycle.
-    The average homeowner paid around $150.
-  [/span]
-  [br/][br/]
-[/Aside]
+[Desktop]
+  [Aside]
+    [span className:"pull-number"]$0 → $1,800[/span]
+    [span className:"pull-number-text"]
+      The potential yearly increase in property taxes that residents could see during 2018 tax cycle.
+      The average homeowner paid around $150.
+    [/span]
+  [/Aside]
+[/Desktop]
 
 According to Mitchell King, who oversaw implementation of the tax fund program as director of External Affairs and Community Engagement at Westside Future Fund, home valuations in the four predominantly black neighborhoods that the fund covers increased by 54% over the last tax cycle. "Things are moving, and they’re moving quickly for a lot of folks," he said. Westside Future Fund told me that during the 2018 tax cycle, property tax hikes ranged from no increase at all to upwards of $1,800. The average homeowner paid around $150.
+
+
+[Mobile]
+  [Aside]
+    [span className:"pull-number"]$0 → $1,800[/span]
+    [span className:"pull-number-text"]
+      The potential yearly increase in property taxes that residents could see during 2018 tax cycle.
+      The average homeowner paid around $150.
+    [/span]
+  [/Aside]
+[/Mobile]
 
 Upon its launch, Westside Future Fund began publicizing details of the program in the media and at community meetings. The fund is supported by $5 million dollars in philanthropic donations from homegrown companies like Delta Air Lines and Chick-fil-A, as well as the family foundation of businessman and Atlanta sports team owner Arthur Blank.
 
@@ -78,7 +90,7 @@ They created an interactive online tool designed to show residents if they quali
 [Aside]
   [span className:"pull-number"]92%[/span]
   [span className:"pull-number-text"]
-    The percentage of residents who are renters, and are excluded from the fund. Note, this number changes often and updates are reported quarterly through WFF.
+    The percentage of residents who are renters, and are excluded from the fund. Note, this is the most recent estimate, but this number changes often and updates are reported quarterly through WFF.
   [/span]
   [br/][br/]
 [/Aside]
@@ -92,13 +104,11 @@ The Georgia Tech researchers found that 92% of residents who live in the 2.2 squ
 [/div]
 
 [caption]
-  [desktop]
-    Each dot represents a [span className:"caption-highlight" style:`{color: '#FFE533'}`]home in Atlanta[/span] within the five neighborhoods (Ashview Heights, Atlanta University Center, English Avenue, Vine City, Washington Park) disqualified from the fund.
-    Click map to [display value:`mapZoomHomes ? 'disable' : 'enable'` /] zooming.
-    [br/]
-  [/desktop]
+  Each dot represents a [span className:"caption-highlight" style:`{color: '#FFE533'}`]home in Atlanta[/span] within the five neighborhoods eligible for the fund. Dots shown in yellow have been disqualifying.
+  Click map to [display value:`mapZoomHomes ? 'disable' : 'enable'` /] zooming.
   [br/]
-  **Souce:** [a href:"https://ds4sg.gatech.edu/"]Data Science for Social Good, Georgia Institute of Technology[/a].
+  [br/]
+  **Source:** [a href:"https://ds4sg.gatech.edu/"]Data Science for Social Good, Georgia Institute of Technology[/a].
 [/caption]
 
 [Aside]
@@ -133,7 +143,7 @@ A similar "rail-to-trail" project, Minneapolis’ Midtown Greenway, could provid
 [caption]
   [span className:"caption-highlight" style:`{color: '#FFE533'}`]The Atlanta BeltLine[/span], a multi-use "rail-to-trail" project, will encircle the heart of the city when eventually [a href:"https://beltline.org/about/the-atlanta-beltline-project/atlanta-beltline-overview/"]completed in 2030[/a].
 
-  **Souce:** [a href:"https://ds4sg.gatech.edu/"]Data Science for Social Good, Georgia Institute of Technology[/a].
+  **Source:** [a href:"https://ds4sg.gatech.edu/"]Data Science for Social Good, Georgia Institute of Technology[/a].
 [/caption]
 
 Blunt said she's not against development on the Westside if it’s done the right way. "Change is good when it’s bettering quality of life, but people who have been there for a long time won’t get to experience that, because they can’t afford to live in that area anymore."
@@ -165,12 +175,10 @@ Although his research began in Roswell, Markley expanded his scope to other near
 [/div]
 
 [caption]
-  [desktop]
     Each dot represents an [span className:"caption-highlight" style:`{color: '#FFE533'}`]apartment complex[/span] that was razed between 2010 and 2017 in Atlanta's northern suburbs.
     Hover over an apartment for details.
     Click map to [display value:`mapZoomApts ? 'disable' : 'enable' ` /] zooming.
-
-  [/desktop]
+  [br/]
   [br/]
   **Source**: Scott Markley.
 [/caption]
