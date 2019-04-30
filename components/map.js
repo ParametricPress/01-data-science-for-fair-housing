@@ -224,7 +224,7 @@ class App extends Component {
             <div><b>{hoveredObject.properties.apt_name}</b></div>
             <div>Location: {hoveredObject.properties.city}</div>
             <div>Est. Population: {hoveredObject.properties.est_pop10}</div>
-            <div>Year Demolised: {hoveredObject.properties.yr_dem}</div>
+            <div>Year Demolished: {hoveredObject.properties.yr_dem}</div>
           </div>: null
         }
       </div>

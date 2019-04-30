@@ -1,4 +1,7 @@
-[meta title:"The Data Science of Housing Equity" description:"Researchers are using the power of data science to study the effectiveness of anti-displacement housing programs for cities' most vulnerable residents." /]
+[meta title:"The Data Science of Housing Equity" description:"Researchers are using the power of data science to study the effectiveness of anti-displacement housing programs for cities' most vulnerable residents."
+  shareImageUrl:"https://issue-01-preview.parametric.press/issue-01/the-data-science-of-housing-equity/static/images/share.png"
+  shareImageWidth:"880"
+  shareImageHeight:"440" /]
 
 [Nav fullWidth:true /]
 
@@ -18,7 +21,7 @@
 [Header
   title:`["Housing", "Equity"]`
   longTitle:`["The Data Science", "of Housing Equity"]`
-  date:"April 15, 2019"
+  date:"May 1, 2019"
   dek:"Researchers are using the power of data science to study the effectiveness of an anti-displacement housing program for one city's most vulnerable residents."
   fullWidth:true
   authors:`[{
@@ -26,13 +29,13 @@
     role: ''
   }]`
   doi:""
-  archive:""
-  source:""
+  archive:"https://parametric.press/archives/issue-01/the-data-science-of-housing-equity.warc"
+  source:"https://github.com/ParametricPress/01-housing-equity"
 /]
 
 
 
-On a spring day in 2017, in the front yard of a small, cornflower-blue house on Atlanta’s historic Westside, Kasim Reed, the city’s then mayor, announced the launch of a new city-backed program. Its purpose: to stem the tide of rising property taxes and keep residents of some of the city’s most impoverished neighborhoods in their homes.
+On a spring day in 2017, in the front yard of a small, cornflower-blue house on Atlanta’s historic Westside, Kasim Reed, the city’s then-mayor, announced the launch of a new city-backed program. Its purpose: to stem the tide of rising property taxes and keep residents of some of the city’s most impoverished neighborhoods in their homes.
 
 "The City of Atlanta is proud to launch this essential program which will help ensure that long-time residents get to share in the prosperity coming to the Westside," Reed said at the news conference announcing the fund. "This program is another stake in the ground to preserve the character and the history of our transformative Atlanta neighborhoods."
 
@@ -47,7 +50,7 @@ Modeled after a similar program in Charleston, South Carolina, Atlanta non-profi
   [br/][br/]
 [/Aside]
 
-According to Mitchell King, who oversaw implementation of the tax fund program as director of External Affairs and Community Engagement at Westside Future Fund, home valuations in the four predominantly black neighborhoods that the fund covers increased by 54% over the last tax cycle. "Things are moving, and they’re moving quickly for a lot of folks,"" he said. Westside Future Fund told me that during the 2018 tax cycle, property tax hikes ranged from no increase at all to upwards of $1,800. The average homeowner paid around $150.
+According to Mitchell King, who oversaw implementation of the tax fund program as director of External Affairs and Community Engagement at Westside Future Fund, home valuations in the four predominantly black neighborhoods that the fund covers increased by 54% over the last tax cycle. "Things are moving, and they’re moving quickly for a lot of folks," he said. Westside Future Fund told me that during the 2018 tax cycle, property tax hikes ranged from no increase at all to upwards of $1,800. The average homeowner paid around $150.
 
 Upon its launch, Westside Future Fund began publicizing details of the program in the media and at community meetings. The fund is supported by $5 million dollars in philanthropic donations from homegrown companies like Delta Air Lines and Chick-fil-A, as well as the family foundation of businessman and Atlanta sports team owner Arthur Blank.
 
@@ -66,7 +69,7 @@ Amanda Meng, a research scientist in the Georgia Institute of Technology’s Sch
   **Source**: [link text:"The Westside Future Fund" url:"https://www.westsidefuturefund.org/wp-content/uploads/2016/09/ADTF-Press-Conference-Group-Photo-4.12.17_600px_v2.jpg" /].
 [/caption]
 
-"There was still concern about whether or not displacement was going to be a problem,"" Meng remembered. The neighbor and others also wondered how many long-time residents the fund would help. Meng set out to answer this question using data.
+"There was still concern about whether or not displacement was going to be a problem," Meng remembered. The neighbor and others also wondered how many long-time residents the fund would help. Meng set out to answer this question using data.
 
 Partnering with the [a href:"https://www.helporginc.org/walt-2015.html"]Westside Atlanta Land Trust (WALT)[/a], a local community empowerment organization that develops and stewards permanent affordable housing, she and a team of researchers analyzed real estate data and historical tax assessments for five Westside Atlanta neighborhoods.
 
@@ -90,7 +93,7 @@ The Georgia Tech researchers found that 92% of residents who live in the 2.2 squ
 
 [caption]
   [desktop]
-    Each dot represents a [span className:"caption-highlight" style:`{color: '#FFE533'}`]home in Atlanta[/span] within the five neighborhoods (Ashview Heights, Atlanta University Center, English Avenue, Vine City, Washington Park) considered for the fund.
+    Each dot represents a [span className:"caption-highlight" style:`{color: '#FFE533'}`]home in Atlanta[/span] within the five neighborhoods (Ashview Heights, Atlanta University Center, English Avenue, Vine City, Washington Park) disqualified from the fund.
     Click map to [display value:`mapZoomHomes ? 'disable' : 'enable'` /] zooming.
     [br/]
   [/desktop]
@@ -120,7 +123,7 @@ Before enrolling at Georgia Tech in the fall of 2018, Blunt graduated from Spelm
 
 There are concerns that [a href:"https://www.ajc.com/news/local-govt--politics/the-gulch-deal-explained-what-you-need-know-about-the-proposal/YVhVQeTzOl9ginjCrm5V1O/"]development of the mixed-use Gulch complex[/a] could further increase property values and displace long-time residents. In February, [a href:"https://beltline.org/2019/02/14/atlanta-beltline-inc-announces-acquisition-of-key-westside-property/"]the City of Atlanta announced the $5.1 million purchase[/a] of an unused stretch of railroad corridor on the Westside to expand the BeltLine. Residents near the project's Eastside expansion [a href:"https://atlanta.curbed.com/2017/7/19/15995122/beltline-affordable-housing-lack-study"]have seen rents climb[/a] by at least 59% since 2005.
 
-A similar "rail-to-trail" project, Minneapolis’ Midtown Greenway, could provide a glimpse into Atlanta's future. In the project's first decade, property values in the area increased by 90%, [a href:"https://www.minnpost.com/metro/2018/11/election-leads-to-historic-shake-up-in-hennepin-county/"]according to a former county commissioner[/a].
+A similar "rail-to-trail" project, Minneapolis’ Midtown Greenway, could provide a glimpse into Atlanta's future. In the project's first decade, property values in the area increased by 90%, [a href:"https://www.railstotrails.org/trailblog/2015/october/16/minnesota-s-midtown-greenway/"]according to a former county commissioner[/a].
 
 [div fullWidth:true ]
   [br/]
