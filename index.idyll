@@ -104,7 +104,7 @@ The Georgia Tech researchers found that 92% of residents who live in the 2.2 squ
 [/div]
 
 [caption]
-  Each dot represents a [span className:"caption-highlight" style:`{color: '#FFE533'}`]home in Atlanta[/span] within the five neighborhoods eligible for the fund. Dots shown in yellow have been disqualifying.
+  Each dot represents a [span className:"caption-highlight" style:`{color: '#FFE533'}`]home in Atlanta[/span] within the five neighborhoods eligible for the fund. Dots shown in yellow have been disqualified, while those shown in white are eligible.
   Click map to [display value:`mapZoomHomes ? 'disable' : 'enable'` /] zooming.
   [br/]
   [br/]
