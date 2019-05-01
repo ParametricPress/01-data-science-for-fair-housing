@@ -1,15 +1,15 @@
-[meta title:"The Data Science of Housing Equity" description:"Researchers are using the power of data science to study the effectiveness of anti-displacement housing programs for cities' most vulnerable residents."
-  shareImageUrl:"https://issue-01-preview.parametric.press/issue-01/the-data-science-of-housing-equity/static/images/share.png"
+[meta title:"Data Science for Fair Housing" description:"Cities across America covertly exclude racial minorities from majority-white residential neighborhoods, while gentrification drives people of color out of their homes. In Atlanta, a new nonprofit seeks to resist displacement by supporting the city’s most vulnerable residents—but how effective is their project?"
+  shareImageUrl:"https://parametric.press/issue-01/data-science-for-fair-housing/static/images/share.png"
   shareImageWidth:"880"
   shareImageHeight:"440" /]
 
 [Nav fullWidth:true /]
 
-[var name:"parametricSlug" value:"the-data-science-of-housing-equity" /]
+[var name:"parametricSlug" value:"data-science-for-fair-housing" /]
 
 // atlanta homes map
 // [data name:"atlantaHousesGeoJSON" source:"atlanta-houses.json" /]
-[data name:"atlantaHousesGeoJSON" source:"atlanta-houses-points.json" /]
+[data name:"atlantaHousesGeoJSON" source:"houses-small.json" /]
 // [data name:"atlantaHousesGeoJSON" source:"atlanta-houses-outlines.json" /]
 
 // beltline map
@@ -19,10 +19,10 @@
 [data name:"apartmentsGeoJSON" source:"apts.json" /]
 
 [Header
-  title:`["Housing", "Equity"]`
-  longTitle:`["The Data Science", "of Housing Equity"]`
+  title:`["Fair", "Housing"]`
+  longTitle:`["Data Science", "for Fair Housing"]`
   date:"May 1, 2019"
-  dek:"Researchers are using the power of data science to study the effectiveness of an anti-displacement housing program for one city's most vulnerable residents."
+  dek:"Cities across America covertly exclude racial minorities from majority-white residential neighborhoods, while gentrification drives people of color out of their homes. In Atlanta, a new nonprofit seeks to resist displacement by supporting the city’s most vulnerable residents—but how effective is their project?"
   fullWidth:true
   authors:`[{
     name: "Alyson Powell Key",
@@ -172,7 +172,7 @@ Although his research began in Roswell, Markley expanded his scope to other near
 [div fullWidth:true ]
   [br/]
   [var name:"mapZoomApts" value:false /]
-  [Map map:"apts" zoomEnabled:mapZoomApts geoJSON:apartmentsGeoJSON initialViewport:`{latitude: 33.9290, longitude: -84.3780, zoom: 11}` /]
+  [Map map:"apts" zoomEnabled:mapZoomApts geoJSON:apartmentsGeoJSON initialViewport:`{latitude: 33.8940, longitude: -84.3780, zoom: 11}` /]
 [/div]
 
 [caption]

@@ -42,7 +42,7 @@ class App extends Component {
 
   _resize() {
     this._onChangeViewport({
-      width: window.innerWidth,
+      width: Math.min(window.innerWidth, 1440),
       height: window.innerHeight * (2/3)
     });
   }
@@ -206,7 +206,7 @@ class App extends Component {
     const { viewport, initialized, transitioning, hoveredObject, pointerX, pointerY } = this.state;
 
     return (
-      <div key={'map'} ref={this.handleRef.bind(this)} style={{width: '100%'}}>
+      <div key={'map'} ref={this.handleRef.bind(this)} style={{width: '100%', maxWidth: 1440}}>
         <MapGL
           {...viewport}
           // {...tweenedViewport}
