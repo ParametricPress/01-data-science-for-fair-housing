@@ -26,11 +26,12 @@
   fullWidth:true
   authors:`[{
     name: "Alyson Powell Key",
-    role: ''
+    role: '',
+    url:"https://twitter.com/aypowell"
   }]`
-  doi:""
-  archive:"https://parametric.press/archives/issue-01/the-data-science-of-housing-equity.warc"
-  source:"https://github.com/ParametricPress/01-housing-equity"
+  doi:"https://doi.org/10.5281/zenodo.2655982"
+  archive:`'https://parametric-press-archives.s3.amazonaws.com/issue-01/' + parametricSlug + '.warc.gz'`
+  source:`"https://github.com/ParametricPress/01-" + parametricSlug `
 /]
 
 
@@ -229,7 +230,7 @@ Georgia Tech’s Meng said another solution for Atlanta is a well-funded public 
 [AuthorBio]
 **Alyson Powell Key** is a science and technology writer and communications professional based in Atlanta, Georgia.
 
-Edited by Fred Hohman and Matthew Conlen.
+Edited by Fred Hohman, Matthew Conlen, and Sara Stalla.
 [/AuthorBio]
 
 [NextArticle slug:parametricSlug fullWidth:true /]
