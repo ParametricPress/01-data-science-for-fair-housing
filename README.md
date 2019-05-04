@@ -10,4 +10,4 @@ Data science for housing equity in atlanta
 
 ## Running local dev server
 
-1. Run `idyll` in the root of this project.
+1. Run `idyll --template _local.html` in the root of this project.
